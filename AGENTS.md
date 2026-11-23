@@ -127,7 +127,7 @@ The public graph is generated. Do not hand-edit graph JSON, `dist/`, or the Page
 - A node is one OKF concept (every non-reserved `.md` file). Its type, title, description, status, tags, sources, and trust tier come from frontmatter. Trust is `unverified` when `verified` is absent, `machine-confirmed` when only non-human actors have verified it, and `human-reviewed` when a `human:` actor has.
 - An edge is either a markdown link from one concept to another (`link`) or a `sources` entry whose `resource` points at another concept (`cites`).
 
-A weekly librarian keeps the graph current by keeping the wiki current. After an ingest, query filing, or lint pass, run `python scripts/validate_okf.py`. Do not maintain a separate graph. A push to `main` rebuilds the site and deploys it to GitHub Pages at <https://agento3.github.io/cville-ecodome/>. Pull requests build the site without deploying it.
+A weekly librarian keeps the graph current by keeping the wiki current. After an ingest, query filing, or lint pass, run `python scripts/validate_okf.py`. Do not maintain a separate graph. A push to `main` rebuilds the site and deploys it to GitHub Pages at <https://agento3.github.io/cville-ecodome/>. Pull requests build the site without deploying it. The upload and the deploy are separate jobs in `.github/workflows/okf.yml`. Do not run `actions/deploy-pages` in the job that uploads the artifact.
 
 Preview locally:
 

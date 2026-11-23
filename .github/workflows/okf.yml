@@ -7,19 +7,22 @@ on:
 permissions:
   contents: read
 
+# Do not cancel an in-progress Pages deployment.
 concurrency:
-  group: okf-${{ github.ref }}
-  cancel-in-progress: true
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  validate:
+  # Upload and deploy must be separate jobs. deploy-pages reads the
+  # github-pages artifact only after the uploading job has finished.
+  build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
-      - name: Install validator dependency
+      - name: Install dependencies
         run: python -m pip install -r requirements-dev.txt
       - name: Validate the OKF bundle and relative links
         run: python scripts/validate_okf.py
@@ -31,28 +34,22 @@ jobs:
         run: python wiki/references/attesters/pilot-budget.py
       - name: Build the knowledge-graph site
         run: python scripts/build_site.py --base /cville-ecodome/ --out dist
+      - uses: actions/configure-pages@v6
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
 
   deploy:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: validate
+    needs: build
+    runs-on: ubuntu-latest
     permissions:
+      contents: read
       pages: write
       id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-      - name: Install site dependency
-        run: python -m pip install -r requirements-dev.txt
-      - name: Build the knowledge-graph site
-        run: python scripts/build_site.py --base /cville-ecodome/ --out dist
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dist
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
