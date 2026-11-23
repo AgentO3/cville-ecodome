@@ -1,0 +1,465 @@
+     1|EcoDome Spatial Simulator
+     2|
+     3|Product and Software Requirements Specification (EARS)
+     4|
+     5|Version: 1.0
+     6|Status: Proposed implementation baseline
+     7|Priority: True spatially tracked AR on iPhone
+     8|Project: EcoDome Charlottesville
+     9|
+    10|⸻
+    11|
+    12|1. Purpose and Scope
+    13|
+    14|The EcoDome Simulator shall provide an interactive digital twin concept of the proposed EcoDome venue, accessible through desktop and mobile browsers, with spatially tracked augmented reality on supported devices.
+    15|
+    16|The application shall support three primary user experiences:
+    17|
+    18|1. Explore: Navigate and inspect the dome as an interactive Three.js model.
+    19|2. Place: Position a scaled virtual dome on a physical surface using spatially tracked AR.
+    20|3. Experience: Preview the immersive visual environments and educational experiences envisioned for the physical venue.
+    21|
+    22|1.1 Design Baseline
+    23|
+    24|Property	Baseline
+    25|Dome diameter	50 ft / 15.24 m
+    26|Dome radius	25 ft / 7.62 m
+    27|Dome height	7.62 m assumed for a hemisphere
+    28|Audience capacity	250 proposed
+    29|Coordinate system	Metric, Y-up
+    30|Rendering engine	Three.js
+    31|Primary platform	iPhone / Safari
+    32|Secondary platforms	Android / Chrome, desktop browsers
+    33|Deployment	HTTPS
+    34|Primary AR deliverable	USDZ placed through AR Quick Look
+    35|
+    36|Assumptions: The exact dome geometry, mounting height, entrance placement, structural ribs, LED panel geometry, and seating arrangement are not finalized. The simulator shall identify these as conceptual until approved architectural information becomes available.
+    37|
+    38|2. EARS Requirement Syntax
+    39|
+    40|EARS (Easy Approach to Requirements Syntax) provides five requirement patterns.
+    41|
+    42|Pattern	Syntax
+    43|Ubiquitous	The system shall [response].
+    44|Event-driven	When [trigger], the system shall [response].
+    45|State-driven	While [state], the system shall [response].
+    46|Optional feature	Where [feature is present], the system shall [response].
+    47|Unwanted behavior	If [failure], then the system shall [response].
+    48|
+    49|Priority classification:
+    50|
+    51|* P0 — MVP: Mandatory before initial acceptance.
+    52|* P1 — Enhanced: Next implementation phase.
+    53|* P2 — Future: Later capabilities.
+    54|
+    55|Each requirement has a unique identifier and an observable verification method.
+    56|
+    57|⸻
+    58|
+    59|3. Dome Geometry and Digital Twin
+    60|
+    61|ECD-GEO-001 — Real-World Dimensions [P0]
+    62|
+    63|The simulator shall represent the nominal dome using a diameter of 15.24 meters in its unscaled world-coordinate model.
+    64|
+    65|Acceptance: Automated geometry test reports an X/Z bounding diameter of 15.24 m, within ±0.01 m.
+    66|
+    67|ECD-GEO-002 — Hemisphere Geometry [P0]
+    68|
+    69|The simulator shall generate a hemispherical dome mesh using configurable radial and vertical subdivisions.
+    70|
+    71|Acceptance: The mesh forms a continuous hemispherical shell without missing faces in the reference rendering.
+    72|
+    73|ECD-GEO-003 — Ground Alignment [P0]
+    74|
+    75|The simulator shall place the dome’s geometric ground origin at the center of its footprint with a vertical coordinate of zero.
+    76|
+    77|Acceptance: Exported models rest on a detected horizontal AR plane without an unintended vertical offset.
+    78|
+    79|ECD-GEO-004 — Architectural Visibility [P0]
+    80|
+    81|When a user selects Cutaway View, the simulator shall display the interior of the dome by hiding or sectioning the exterior shell.
+    82|
+    83|Acceptance: The interior becomes visible without changing the dome’s position or scale.
+    84|
+    85|ECD-GEO-005 — Structural Detail [P1]
+    86|
+    87|Where structural visualization is enabled, the simulator shall render conceptual support ribs, LED panel boundaries, and venue fixtures.
+    88|
+    89|Acceptance: Each architectural layer can be enabled or disabled independently.
+    90|
+    91|ECD-GEO-006 — Audience Layout [P1]
+    92|
+    93|Where the seating visualization is enabled, the simulator shall display a conceptual audience arrangement with capacity markers for up to 250 people.
+    94|
+    95|Acceptance: The configured seating count is displayed accurately and the layout is labeled conceptual.
+    96|
+    97|⸻
+    98|
+    99|4. True Spatially Tracked iPhone AR
+   100|
+   101|ECD-AR-001 — iPhone AR Entry [P0]
+   102|
+   103|When a user selects View in AR on a supported iPhone, the simulator shall launch a native spatially tracked AR Quick Look experience using a USDZ representation of the current dome model.
+   104|
+   105|Acceptance: The user sees the physical camera view with the virtual dome placed in the environment, rather than an ordinary browser camera overlay.
+   106|
+   107|ECD-AR-002 — Real-World Tracking [P0]
+   108|
+   109|While the dome is placed in an AR session, the AR experience shall maintain its position and orientation relative to the physical environment as the user moves around it.
+   110|
+   111|Acceptance: In a well-lit, feature-rich test environment, the dome remains anchored during a two-meter walk around the model, within the approved tracking-tolerance criteria.
+   112|
+   113|ECD-AR-003 — Surface Placement [P0]
+   114|
+   115|When the native AR runtime identifies a suitable horizontal placement surface, the AR experience shall permit the user to position the dome on that surface.
+   116|
+   117|Acceptance: The dome can be placed on a tabletop or floor using the native AR placement workflow.
+   118|
+   119|ECD-AR-004 — Scale Presets [P0]
+   120|
+   121|The simulator shall provide the following model sizes before AR launch:
+   122|
+   123|Preset	Scale	Dome diameter
+   124|Tabletop	1:50	0.3048 m
+   125|Presentation	1:20	0.762 m
+   126|Full-scale	1:1	15.24 m
+   127|
+   128|Acceptance: The chosen USDZ asset represents the corresponding physical dimension to within 2% of its specified model size.
+   129|
+   130|ECD-AR-005 — Placement Persistence [P0]
+   131|
+   132|While spatial tracking remains available, the AR experience shall maintain the dome’s anchored world-space position independently of the device’s orientation.
+   133|
+   134|Acceptance: Rotating or moving the phone changes the viewing perspective, without causing the model to follow the screen.
+   135|
+   136|ECD-AR-006 — Tracking Failure [P0]
+   137|
+   138|If a supported AR session cannot establish reliable spatial tracking, then the AR experience shall present a recovery or repositioning path without representing the model as successfully anchored.
+   139|
+   140|Acceptance: Testing in a low-feature environment does not result in an unacknowledged or falsely confirmed placement.
+   141|
+   142|ECD-AR-007 — Unsupported Devices [P0]
+   143|
+   144|If a user’s device cannot launch a supported spatial AR experience, then the simulator shall display an explanation and provide the interactive 3D viewer instead.
+   145|
+   146|Acceptance: Unsupported devices do not display a nonfunctional AR launch button or silently substitute a fake AR overlay.
+   147|
+   148|ECD-AR-008 — iPhone Tracking Quality [P0]
+   149|
+   150|The AR implementation shall use a supported spatial-tracking engine with positional and rotational tracking rather than relying exclusively on accelerometer or gyroscope orientation.
+   151|
+   152|Acceptance: A device translation produces the corresponding parallax and perspective change around an anchored model.
+   153|
+   154|ECD-AR-009 — Advanced AR Runtime [P1]
+   155|
+   156|Where the enhanced interactive AR mode is available, the simulator shall launch an ARKit-powered App Clip or equivalent verified six-degree-of-freedom runtime.
+   157|
+   158|Acceptance: The user can interact with live dome content while the dome remains spatially anchored.
+   159|
+   160|ECD-AR-010 — Interactive Anchors [P1]
+   161|
+   162|When the user places the dome in enhanced AR mode, the simulator shall create a session-scoped spatial anchor for the dome root.
+   163|
+   164|Acceptance: Subsequent model interactions preserve the same anchor until the user explicitly moves or resets the model.
+   165|
+   166|⸻
+   167|
+   168|5. Three.js Navigation and Interaction
+   169|
+   170|ECD-INT-001 — Touch Rotation [P0]
+   171|
+   172|When a user drags one finger across the 3D viewer, the simulator shall rotate the viewing camera around the dome’s center.
+   173|
+   174|Acceptance: Horizontal and vertical touch movement adjust the viewing angle without triggering unintended browser scrolling.
+   175|
+   176|ECD-INT-002 — Pinch Zoom [P0]
+   177|
+   178|When a user performs a two-finger pinch gesture, the simulator shall adjust the camera’s distance from the dome within configured limits.
+   179|
+   180|Acceptance: Pinching changes zoom smoothly without clipping the camera through the dome shell.
+   181|
+   182|ECD-INT-003 — View Selection [P0]
+   183|
+   184|When a user selects Interior, Exterior, or Cutaway, the simulator shall change to the corresponding camera and model configuration.
+   185|
+   186|Acceptance: All three views are accessible without reloading the application.
+   187|
+   188|ECD-INT-004 — Reset View [P0]
+   189|
+   190|When a user selects Reset, the simulator shall restore the default camera orientation and zoom for the active viewing mode.
+   191|
+   192|Acceptance: Repeated resets produce the same reference view.
+   193|
+   194|ECD-INT-005 — Mobile Controls [P0]
+   195|
+   196|The simulator shall provide touch-accessible controls for view selection, environment selection, model scale, and AR launch.
+   197|
+   198|Acceptance: Primary controls can be operated without a mouse, keyboard, or hover gesture.
+   199|
+   200|ECD-INT-006 — View State [P1]
+   201|
+   202|When a user changes viewing mode, the simulator shall retain the selected immersive environment and model configuration where those properties are supported by the destination mode.
+   203|
+   204|Acceptance: Switching between exterior and interior views does not reset the selected scene.
+   205|
+   206|⸻
+   207|
+   208|6. Immersive Content Simulation
+   209|
+   210|ECD-VIS-001 — Preset Environments [P0]
+   211|
+   212|The simulator shall provide at least four conceptual immersive environments: Aurora, Cosmos, Ocean, and AI Network.
+   213|
+   214|Acceptance: Each environment can be selected independently and produces a visually distinguishable dome interior.
+   215|
+   216|ECD-VIS-002 — Environment Switching [P0]
+   217|
+   218|When the user selects an immersive environment, the simulator shall display that environment on the interior dome surface in the Three.js viewer.
+   219|
+   220|Acceptance: The selected content is visible from the interior view without a full-page reload.
+   221|
+   222|ECD-VIS-003 — Custom Image Content [P1]
+   223|
+   224|When a user imports a supported 360-degree equirectangular image, the simulator shall map the image onto the interior dome using the configured projection convention.
+   225|
+   226|Acceptance: A calibrated equirectangular test image displays with the expected orientation, without incorrect mirroring or unintended seams.
+   227|
+   228|ECD-VIS-004 — Video Content [P1]
+   229|
+   230|Where immersive video playback is enabled, the simulator shall support compatible HTML5 video assets as interior dome textures.
+   231|
+   232|Acceptance: A compatible test video can play, pause, and restart without replacing the dome geometry.
+   233|
+   234|ECD-VIS-005 — LED Panel Preview [P1]
+   235|
+   236|Where panel simulation is enabled, the simulator shall display a configurable LED panel grid consistent with the conceptual dome mesh.
+   237|
+   238|Acceptance: The panel overlay remains aligned with the surface during camera movement.
+   239|
+   240|ECD-VIS-006 — Projection Calibration [P1]
+   241|
+   242|When a calibration scene is selected, the simulator shall display reference grids, angular coordinates, and orientation markers for evaluating media mapping.
+   243|
+   244|Acceptance: The reference markers identify zenith, horizon, and defined forward direction.
+   245|
+   246|ECD-VIS-007 — AI-Driven Experiences [P2]
+   247|
+   248|Where an AI experience service is connected, the simulator shall allow approved experience parameters to influence rendered content without modifying the dome’s spatial anchor.
+   249|
+   250|Acceptance: A predefined test interaction changes the visual environment while anchor transforms remain unchanged.
+   251|
+   252|⸻
+   253|
+   254|7. Performance and Reliability
+   255|
+   256|The thresholds in this section are proposed engineering targets, subject to validation on physical devices.
+   257|
+   258|ECD-PERF-001 — Mobile Frame Rate [P0]
+   259|
+   260|While the Three.js viewer is active on a supported reference iPhone, the simulator shall maintain a median rendering frame rate of at least 30 frames per second over a 60-second benchmark.
+   261|
+   262|Acceptance: Instrumented performance logs meet the threshold using a defined reference scene on an agreed test device.
+   263|
+   264|ECD-PERF-002 — Asset Size [P0]
+   265|
+   266|The simulator shall provide a tabletop AR asset no larger than 15 MB for the initial lightweight dome configuration.
+   267|
+   268|Acceptance: The deployed USDZ file size does not exceed 15 MB.
+   269|
+   270|ECD-PERF-003 — Adaptive Quality [P0]
+   271|
+   272|When the simulator detects sustained rendering performance below the configured threshold, it shall reduce nonessential visual detail according to a defined quality profile.
+   273|
+   274|Acceptance: The quality controller reduces rendering resolution or effects without altering the model’s physical dimensions.
+   275|
+   276|ECD-PERF-004 — Session Recovery [P1]
+   277|
+   278|If the enhanced AR runtime loses spatial tracking, then the simulator shall suspend interactions that depend on accurate placement until tracking has recovered.
+   279|
+   280|Acceptance: Tracking-dependent actions remain disabled while tracking is unavailable, and resume following successful relocalization.
+   281|
+   282|ECD-PERF-005 — Device Compatibility [P0]
+   283|
+   284|The simulator shall pass the supported-mode acceptance tests on an agreed set of physical iPhone devices and iOS/Safari versions before public release.
+   285|
+   286|Acceptance: A device-test report records the operating-system version, device model, AR mode, observed behavior, and pass/fail result for each test.
+   287|
+   288|⸻
+   289|
+   290|8. Privacy, Accessibility, and Safety
+   291|
+   292|ECD-SEC-001 — Secure Hosting [P0]
+   293|
+   294|The simulator shall serve production application content and AR assets over HTTPS.
+   295|
+   296|Acceptance: Production access succeeds over HTTPS without mixed-content errors.
+   297|
+   298|ECD-SEC-002 — Camera Privacy [P0]
+   299|
+   300|The simulator shall not upload, record, or retain camera imagery without a separate explicit user action and consent.
+   301|
+   302|Acceptance: Network inspection during ordinary AR viewing shows no application-originated camera image or video uploads.
+   303|
+   304|ECD-SEC-003 — User Guidance [P0]
+   305|
+   306|When the user launches an AR mode, the simulator shall provide appropriate guidance for safe spatial placement and movement.
+   307|
+   308|Acceptance: The user encounters guidance before attempting full-scale outdoor placement.
+   309|
+   310|ECD-SEC-004 — Full-Scale Placement Safety [P0]
+   311|
+   312|When the user selects full-scale mode, the simulator shall present a notice that the virtual model does not verify physical clearance or real-world structural feasibility.
+   313|
+   314|Acceptance: The safety notice is visible before the full-scale AR experience is launched.
+   315|
+   316|ECD-ACC-001 — Accessible Controls [P0]
+   317|
+   318|The browser-based simulator shall expose text labels and accessible names for all primary controls.
+   319|
+   320|Acceptance: Controls can be identified using supported screen-reader navigation in the browser interface.
+   321|
+   322|ECD-ACC-002 — Reduced Motion [P1]
+   323|
+   324|Where the user has enabled reduced-motion preferences, the browser viewer shall reduce nonessential animated camera transitions and environmental motion.
+   325|
+   326|Acceptance: A reduced-motion preference test produces the documented reduced-motion behavior.
+   327|
+   328|⸻
+   329|
+   330|9. Proposed Technical Architecture
+   331|
+   332|Application Layer
+   333|
+   334|Three.js Simulation Core
+   335|
+   336|* Parameterized dome geometry
+   337|* Interior and exterior materials
+   338|* Camera navigation
+   339|* Cutaway rendering
+   340|* Environment selection
+   341|* Shared scene configuration
+   342|
+   343|Asset Pipeline
+   344|
+   345|* Canonical geometry and asset definitions
+   346|* glTF/GLB generation for the browser
+   347|* USDZ export and validation for iPhone AR
+   348|* Preset scale variants
+   349|* Optimized textures and materials
+   350|
+   351|Spatial AR Adapters
+   352|
+   353|* iOS MVP: Apple AR Quick Look
+   354|* iOS enhanced: ARKit-powered App Clip or validated equivalent
+   355|* Android: WebXR with hit testing and anchors where supported
+   356|
+   357|Presentation Layer
+   358|
+   359|* Responsive controls
+   360|* Mode and capability detection
+   361|* Error and recovery messages
+   362|* Experience selector
+   363|* AR launch interface
+   364|
+   365|State Model
+   366|
+   367|The simulator shall maintain the following logical application states:
+   368|
+   369|State	Description
+   370|INITIALIZING	Loading runtime and essential assets
+   371|VIEWER_READY	Interactive browser model available
+   372|AR_PREPARING	Validating and preparing the AR entry route
+   373|AR_ACTIVE	Supported native or enhanced AR experience is active
+   374|AR_UNAVAILABLE	Required AR capability is unavailable
+   375|ERROR	Recoverable or unrecoverable application failure
+   376|
+   377|For AR Quick Look, AR session state is controlled by the native viewer; the website shall not claim access to internal tracking data that the native viewer does not expose.
+   378|
+   379|⸻
+   380|
+   381|10. MVP Acceptance Scenarios
+   382|
+   383|Scenario A — iPhone Tabletop Placement
+   384|
+   385|Given a supported iPhone with access to a well-lit tabletop
+   386|When the visitor chooses the 1:50 model and launches View in AR
+   387|Then the native AR experience shall allow placement of an approximately 30.48 cm diameter dome on the tabletop.
+   388|
+   389|Pass condition: The visitor can physically move around the table and inspect the stationary, spatially anchored dome from multiple perspectives.
+   390|
+   391|Scenario B — Translation Tracking
+   392|
+   393|Given a dome already placed on the tabletop
+   394|When the visitor moves the iPhone laterally by one meter
+   395|Then the dome shall exhibit the expected positional parallax without translating with the phone.
+   396|
+   397|Pass condition: The experience demonstrates positional tracking, not merely orientation tracking.
+   398|
+   399|Scenario C — Interior Preview
+   400|
+   401|Given the browser-based Three.js viewer is open
+   402|When the visitor selects Cutaway and Cosmos
+   403|Then the simulator shall show the dome interior with the Cosmos environment active.
+   404|
+   405|Pass condition: The scene updates without reloading the website.
+   406|
+   407|Scenario D — Unsupported AR
+   408|
+   409|Given a browser without a supported spatial AR launch path
+   410|When the visitor selects an AR feature
+   411|Then the simulator shall explain the limitation and offer the 3D viewer.
+   412|
+   413|Pass condition: No misleading non-spatial camera overlay is presented as true AR.
+   414|
+   415|Scenario E — Enhanced Interactive AR
+   416|
+   417|Given a supported enhanced ARKit runtime
+   418|When the visitor places the dome and changes its immersive content
+   419|Then the simulator shall update the visible content without changing the dome’s world-space anchor.
+   420|
+   421|Pass condition: Content changes while spatial placement remains stable.
+   422|
+   423|⸻
+   424|
+   425|11. Delivery Phases
+   426|
+   427|Phase	Deliverable	Acceptance milestone
+   428|1 — Foundation	Responsive Three.js dome and consistent GLB/USDZ assets	Accurate scaled model
+   429|2 — iPhone AR MVP	True tracked placement via Quick Look	Physical-device placement tests pass
+   430|3 — Experience Preview	Cutaway, visuals, media previews	Interactive browser demo passes
+   431|4 — Enhanced AR	ARKit/App Clip interactive spatial experience	Live content changes while anchored
+   432|5 — Digital Twin	Refined geometry, seating, LED mapping	Approved venue design fidelity
+   433|
+   434|12. Explicit MVP Exclusions
+   435|
+   436|The first release does not require:
+   437|
+   438|* Real-time AI-generated imagery inside AR Quick Look.
+   439|* Arbitrary JavaScript interaction within Apple’s native Quick Look viewer.
+   440|* Persistent anchors shared across different devices or sessions.
+   441|* Architectural or structural engineering certification.
+   442|* Exact LED manufacturing specifications.
+   443|* Multiplayer synchronization or collaborative remote AR.
+   444|* Live audience tracking.
+   445|
+   446|These features require separate requirements, validated platform capabilities, or future architectural decisions.
+   447|
+   448|13. Definition of Done
+   449|
+   450|The iPhone-first MVP shall be considered ready for acceptance only when:
+   451|
+   452|1. The dome renders correctly in the mobile Three.js viewer.
+   453|2. The 50-foot model dimensions and all prescribed scales are validated.
+   454|3. An iPhone can launch genuine spatially tracked AR.
+   455|4. A visitor can place the scaled model on a physical surface.
+   456|5. Walking around the model changes perspective without the model following the camera.
+   457|6. Unsupported devices receive an honest fallback experience.
+   458|7. Touch controls and basic immersive scene previews function in the browser.
+   459|8. Camera privacy, HTTPS deployment, and full-scale placement safeguards are verified.
+   460|9. The reference-device compatibility and performance tests have been completed.
+   461|10. All P0 requirements have passed their associated acceptance tests.
+   462|
+   463|Primary success criterion: A visitor opens the EcoDome experience on an iPhone, places a correctly scaled virtual dome onto a physical surface, and walks around it while it remains spatially anchored.
+   464|
+   465|That is the minimum acceptable definition of EcoDome WebAR, not simply a camera-overlay simulation.
