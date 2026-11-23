@@ -16,6 +16,9 @@ sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: web-research
+    resource: /sources/web-research.md
+    title: Public web research, November 2026
 ---
 
 # Site and structure
@@ -42,8 +45,10 @@ sources:
 
 - James, described as a friend of Kahlil, owns a dome. No location or dome type is recorded.[^community-context]
 - Kahlil recently bought dome-related equipment. The kind of equipment is not recorded.
-- The notes ask whether similar domes near Charlottesville can be toured. No answer is filed.
+- The notes ask whether similar domes near Charlottesville can be toured. The [November 23, 2026 pass](/comparables/nearby-domes.md) found visitable domes and planetariums, including in-town StarLab and Rotunda projection nights, JMU in Harrisonburg, and a 250-seat dome in Richmond. None of them is EcoDome. A same-size LED venue with a locked Charlottesville site is still open.[^web-research]
+- Founder-reported city support, a $7M figure, a foundation name, and a membership price that could not be reloaded are on [claims to verify](/questions/claims-to-verify.md).
 
 [^ears-spec]: EARS requirements specification
 [^community-context]: Community context notes
 [^explorers-deck]: AI Explorers presentation
+[^web-research]: Public web research, November 2026

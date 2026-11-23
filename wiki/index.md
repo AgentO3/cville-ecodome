@@ -8,11 +8,31 @@ OKF v0.2 bundle for the EcoDome Charlottesville project. Read a section index be
 
 # Project
 
-* [EcoDome Charlottesville](project.md) - Proposed Charlottesville immersive dome, from the pilot deck, the community notes, and the simulator specification.
+* [EcoDome Charlottesville](project.md) - Proposed Charlottesville immersive dome, from the deck, the notes, the simulator specification, and a November 2026 public-web report.
 
 # Place
 
-* [Venue](venue/) - Place named in the notes, and what the pilot deck does not confirm.
+* [Venue](venue/) - IX campus used for events and a concept placement; no locked build site was found.
+
+# Organization
+
+* [Organization](organization/) - The LLC and the public roles around it.
+
+# Timeline
+
+* [Timeline](timeline/) - Dated public record through November 23, 2026.
+
+# Events
+
+* [Events](events/) - Documented gatherings. None of them opened a dome.
+
+# Media
+
+* [Media](media/) - Coverage that names the project, and outlets with no article found.
+
+# Comparables
+
+* [Comparables](comparables/) - Domes and planetariums near Charlottesville that are not this project.
 
 # Dome
 

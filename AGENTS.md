@@ -65,6 +65,11 @@ Type values used here:
 | `Prototype` | A build or demonstration that exists |
 | `Value` | Community preferences and funding posture |
 | `Plan` | Gathering and cadence |
+| `Organization` | A legal entity or a set of public roles |
+| `Timeline` | A dated public record |
+| `Event` | A documented gathering |
+| `Media` | Coverage and the lack of it |
+| `Comparable` | An existing venue that is not this project |
 | `Question` | Open questions and leads |
 | `Source Summary` | A filed raw source |
 | `Attested Computation` | A sanctioned calculation |

@@ -10,6 +10,9 @@ sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: web-research
+    resource: /sources/web-research.md
+    title: Public web research, November 2026
 ---
 
 # Proposal
@@ -17,6 +20,8 @@ sources:
 The [AI Explorers deck](/sources/ai-explorers-deck.md) proposes a five-day EcoDome showcase with Tom Tom on April 21–25, 2027, branded "EcoDome × Tom Tom 2027." The temporary dome is called the first experiment. The pilot would help the team assess community demand and the requirements for a lasting venue. Launch remains subject to funding, site approval, and final agreements.[^explorers-deck]
 
 The deck does not name the site. [IX Art Park](/venue/ix-art-park.md) comes from the community notes, not from these slides. The structure it proposes is the 50-foot package on the [geometry page](/dome/geometry.md).
+
+The [November 23, 2026 public-web pass](/sources/web-research.md) could not open the Google Slides file (a sign-in wall), so it does not independently confirm these dates, the Tom Tom branding, or the $175,000 figure. Those claims stay sourced to the deck PDF. The pass also found no public permit or locked site for a build.[^web-research]
 
 # Path and readiness
 
@@ -48,3 +53,4 @@ The fundraising goal, the approximate allocation, pay-what-you-can admission, an
 Proposed reporting, still to be agreed, would cover programs and sessions delivered, session visits and supported places, optional feedback, and whether agreed sponsor benefits were delivered. The deck promises a short post-pilot summary, aggregate results only, unique-visitor counts only when they can be counted reliably, and no audience target or research outcome.
 
 [^explorers-deck]: AI Explorers presentation
+[^web-research]: Public web research, November 2026

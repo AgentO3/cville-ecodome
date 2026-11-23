@@ -2,4 +2,4 @@
 
 # Place
 
-* [IX Art Park](ix-art-park.md) - Charlottesville park named in the community notes; the 2027 pilot site is not confirmed.
+* [IX Art Park](ix-art-park.md) - IX campus used for EcoDome events and a concept placement; no locked build site was found.

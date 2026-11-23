@@ -22,6 +22,7 @@ scripts/validate_okf.py
 | Spatial Simulator EARS specification, v1.0 | `raw/ecodome-spatial-simulator-ears-v1.0.txt` |
 | Community notes, November 2026 | `raw/ecodome-charlottesville-context-2026-11.md` |
 | AI Explorers slide deck (24 pages) | `raw/ecodome-ai-explorers-presentation.pdf` |
+| Public-web research report, November 23, 2026 | `raw/ecodome-public-web-research-2026-11-23.md` |
 
 The deck is also published as [Google Slides](https://docs.google.com/presentation/d/1_2WxQJjcp8bBibTe3YFr8n5Iuy0UZx7G6TorSFdZV4M). The PDF is in `raw/` so the wiki still has the deck if that link changes. It is about 7.2 MB, under GitHub's file limit. Most of the type is in the images; the wiki was written by reading the rendered slides.
 

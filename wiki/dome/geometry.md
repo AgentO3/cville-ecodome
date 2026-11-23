@@ -16,6 +16,9 @@ sources:
   - id: community-context
     resource: /sources/community-context.md
     title: Community context notes
+  - id: web-research
+    resource: /sources/web-research.md
+    title: Public web research, November 2026
 ---
 
 # Nominal size
@@ -35,6 +38,12 @@ Both the [EARS specification](/sources/ears-spec.md) and the [AI Explorers deck]
 The meter figures are reconstructed by the [nominal-diameter computation](/computations/dome-diameter.md). Height equals radius only under the hemisphere assumption. The [community notes](/sources/community-context.md) say "~250 audience capacity" and do not split seated from standing.[^community-context]
 
 The deck says capacity depends on layout and approvals. The specification says seating arrangement is not finalized, and that a seating view must be labeled conceptual.
+
+# Official site and the digital twin
+
+The [November 23, 2026 public-web pass](/sources/web-research.md) confirms that [ecodomecville.com](https://ecodomecville.com/) describes a 50-foot LED-panel dome designed to fit 250 people. That is the site's own description of a venue the same pass found is not yet built.[^web-research]
+
+The [IX Art Park digital twin](/prototypes/ix-art-park-twin.md) says the video dome uses the source's 8 m radius, with 360-degree horizontal coverage and a 90-degree vertical arc. An 8 m radius is a 16 m diameter, about 52.5 ft, slightly larger than 50 ft / 15.24 m. The research report records both published figures and does not reconcile them. Until a later source does, the simulator baseline remains the specification's 15.24 m, and the twin's 8 m radius stays a published concept-model figure. The difference is also on [claims to verify](/questions/claims-to-verify.md).
 
 # Proposed pilot structure
 
@@ -60,3 +69,4 @@ The Pacific Domes openings are not yet written into those requirements. The [spa
 [^ears-spec]: EARS requirements specification
 [^explorers-deck]: AI Explorers presentation
 [^community-context]: Community context notes
+[^web-research]: Public web research, November 2026

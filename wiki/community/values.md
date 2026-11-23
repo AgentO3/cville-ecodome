@@ -13,6 +13,9 @@ sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: web-research
+    resource: /sources/web-research.md
+    title: Public web research, November 2026
 ---
 
 # Preference recorded in the notes
@@ -25,5 +28,20 @@ The [AI Explorers deck](/sources/ai-explorers-deck.md) asks sponsors to help fun
 
 Both statements stand. The [open questions](/questions/open-questions.md) page keeps the unresolved relationship between them. The [April 2027 pilot](/pilot/april-2027.md) is the event the deck is raising money for. The [community plans](/community/plans.md) are the cadence around the discussion, not a funding decision.
 
+# What the public web adds
+
+The [November 23, 2026 pass](/sources/web-research.md) does not resolve that preference. It adds figures that are easy to mix together:[^web-research]
+
+| Figure | Where it appears | Label |
+| --- | --- | --- |
+| $175,000 pilot goal | [Pilot deck](/pilot/budget-and-sponsorship.md) | Proposed in the deck. The web pass could not open the Slides file. |
+| "$7M+" eco-conscious venue | Founder LinkedIn About text | **Self-reported only.** No public financing document found. |
+| Founding-member ask | Live official site, without a price on the homepage | The ask is confirmed. A $5,000 "Founding Stone Circle" price was on a studio page that did not load. |
+| City of Charlottesville backing | CanvasRebel interview, April 10, 2025 | **Not corroborated** in city documents found in this pass. |
+| "ECODOME Foundation" | GoFundMe for the Great Mother Fest | Name on a fundraiser. **No 501(c)(3) record found.** |
+
+The [LLC](/organization/ecodome-cville-llc.md) is the entity the pass could confirm. The open items are on [claims to verify](/questions/claims-to-verify.md).
+
 [^community-context]: Community context notes
 [^explorers-deck]: AI Explorers presentation
+[^web-research]: Public web research, November 2026
