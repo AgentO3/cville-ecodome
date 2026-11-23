@@ -4,7 +4,7 @@ title: Open questions and leads
 description: Unresolved site, design, funding, organization, and program questions, plus named leads.
 status: draft
 tags: [ecodome, questions]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T21:40:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -43,6 +43,9 @@ sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: prototype-links
+    resource: /sources/simulator-prototype-links.md
+    title: Spatial-simulator prototype links
 ---
 
 # Site and structure
@@ -69,7 +72,7 @@ sources:
 
 - The deck says five programming concepts were submitted and does not name them. NEXTGEN, the elements experience, and the pre-festival hackathon are the programs it does describe. The official site's six program areas and the Alignable catalog are not mapped onto those names. See [immersive content](../dome/immersive-content.md).[^official-site][^alignable]
 - The notes float a WebXR toolkit around [Dome Tools](../tools/dome-tools.md) and virtual multiplayer watch parties. The specification's first simulator release excludes multiplayer synchronization and live audience tracking. The sources do not reconcile these.
-- Claude and Muse simulator prototypes are named in the notes without URLs. See the [EARS build](../prototypes/ears-simulator.md).
+- The November 2026 community notes name Claude and Muse simulator prototypes and do not record URLs. A later note records those URLs and a Grok Bot explore entry. See the [EARS build](../prototypes/ears-simulator.md).[^prototype-links][^community-context]
 - The [digital twin](../prototypes/ix-art-park-twin.md), the EARS simulator, and the deck's [image-to-experience](../prototypes/image-to-experience.md) work are not described as one pipeline.
 - Full citations for the [fulldome research slides](../evidence/why-a-dome.md) are not on the deck. The 781-undergraduate study has no author or result size printed.
 - The notes schedule a video jam on 2026-11-23. No later filed source reports whether it happened. See [community plans](../community/plans.md).[^community-context]
@@ -103,3 +106,4 @@ sources:
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
+[^prototype-links]: Spatial-simulator prototype links

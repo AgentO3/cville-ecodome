@@ -6,6 +6,7 @@
 
 ## 2026-11-23
 
+* **Ingest**: Filed the Claude, Muse, and Grok Bot explore links Owen shared for the spatial-simulator prototypes. The November community notes still do not contain those Claude and Muse URLs.
 * **Ingest**: Filed the November 23, 2026 feasibility study as research provided by the project team. The preparer's name and references to a private buyer were generalized in the raw file. Added hardware, projection, logistics, permit, insurance, competition, pricing, and profit-model pages, and left their disagreements with the pilot budget and the LED-panel wording on the record.
 * **Lint**: Compared the new public pages with the deck, the notes, and the simulator specification. Kept the LED-panel, projection-package, and video-dome wordings side by side. Left `verified` unset; no person has reviewed the pages. The community Discord could not be read (bot login rejected: disallowed intents), so the November 23 video jam has no outcome on file. A courtyard "vegetative dome" is not on the IX pages read this week; a 2016 article's geodesic dome under the Nest exhibit was filed instead, without a claim that it is still there.
 * **Ingest**: Filed paraphrases of the official site, the April 10, 2025 founder interview, the Alignable listing, the IX Art Park home and rentals pages, a 2016 note on the Nest exhibit, and two Virginia business-compilation pages. Street addresses, an email address, surnames, a registered agent, personal quotations, and recommendation text were not copied into concept pages.
