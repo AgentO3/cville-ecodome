@@ -66,6 +66,10 @@ Type values used here:
 | `Value` | Community preferences and funding posture |
 | `Plan` | Gathering and cadence |
 | `Question` | Open questions and leads |
+| `Business` | An operating model, price, or profit sketch |
+| `Regulation` | A permit, zoning, or insurance requirement |
+| `Operations` | Logistics and crew |
+| `Competition` | Another operator or venue in the same market |
 | `Source Summary` | A filed raw source |
 | `Attested Computation` | A sanctioned calculation |
 

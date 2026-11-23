@@ -37,6 +37,9 @@ sources:
   - id: alignable
     resource: /sources/alignable-listing.md
     title: Alignable listing
+  - id: feasibility
+    resource: /sources/feasibility-research.md
+    title: Feasibility research, November 2026
 ---
 
 # Site and structure
@@ -46,7 +49,7 @@ sources:
 - No filed source records an issued permit, a certificate of occupancy, or a paid insurance premium. The deck budgets about $2,000 for insurance and permits and lists approvals as future work.[^explorers-deck]
 - The [EARS specification](../dome/geometry.md) says mounting height, entrance, structural ribs, LED panel geometry, and seating are not finalized. The deck proposes a Pacific Domes 50-foot projection package. The official site says "LED-panel dome." The interview says "interactive dome." The notes say "hemispherical video dome." No source says which display has been chosen.[^ears-spec][^official-site][^interview]
 - Hemisphere height in the specification is an assumption. The deck's diagram is a portable geodesic-style dome, not labeled as a mathematical hemisphere.
-- Seated capacity of 175 and standing capacity of 250 are proposed, and the deck says they depend on layout and approvals. The specification's audience marker is "up to 250" and must be labeled conceptual. The official site and the interview also say 250 and do not split seated from standing.
+- Seated capacity of 175 and standing capacity of 250 are proposed, and the deck says they depend on layout and approvals. The specification's audience marker is "up to 250" and must be labeled conceptual. The official site and the interview also say 250 and do not split seated from standing. The [feasibility study](../sources/feasibility-research.md) quotes other 50-foot operators at about 150 to 200 seated and 260 to 300 standing, and says the fire official sets the load. No source picks one number.[^feasibility]
 - A 2016 article describes a geodesic dome under an IX exhibit called Nest. The park's 2026 pages do not mention it. Whether it is still there, and whether it is vegetative, is unanswered. It is not EcoDome.[^nest-2016]
 
 # Organization
@@ -72,7 +75,12 @@ sources:
 
 - James, described as a friend of Kahlil, owns a dome. No location or dome type is recorded.[^community-context]
 - Kahlil recently bought dome-related equipment. The kind of equipment is not recorded.
-- The notes ask whether similar domes near Charlottesville can be toured. No tour is filed. The Nest geodesic dome, if it remains, is a park exhibit, not a 50-foot venue. Pacific Domes appears as a proposed package, not as a local room to visit.
+- The notes ask whether similar domes near Charlottesville can be toured. No tour is filed. The Nest geodesic dome, if it remains, is a park exhibit, not a 50-foot venue. Pacific Domes appears as a proposed package, not as a local room to visit. The feasibility study says it found no central Virginia company renting large geodesic event domes. See [competition](../competition/central-virginia.md).[^feasibility]
+- A frame and cover are described as available to purchase, without a liner or AV. Asking price, manufacturer, year, cover type, and flame certificate are not in the study.
+- The study's display path is multi-projector 360-degree projection. The official site says LED panel. Neither is chosen.
+- Whether a seasonal ticketed run plus mobile rentals will be pursued, and in which county, is not decided. The 180-day temporary-structure line and the Albemarle special-use path are described on the [permits page](../regulations/virginia-permits.md) and are not a filed application.
+- Starting capital in the study is an estimate of $250,000 to $400,000. The deck's pilot goal is $175,000. Insurance is estimated at $12,000 to $25,000 a year in the study and about $2,000 for insurance and permits on the deck.
+- Storage, a truck and trailer, anchor clients, and whether the team has projection experience are asked in the study and not answered.
 - Fred is named in the April 2025 interview as lead designer and builder. No later source confirms that role or names an employer.[^interview]
 
 [^ears-spec]: EARS requirements specification
@@ -85,3 +93,4 @@ sources:
 [^ix-website]: IX Art Park website
 [^nest-2016]: IX Nest exhibit, 2016
 [^alignable]: Alignable listing
+[^feasibility]: Feasibility research, November 2026

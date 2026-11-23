@@ -16,5 +16,6 @@ Agents read these files and write concept pages under `wiki/`. The wiki is the m
 | `opencorpdata-ecodome-foundation-2026-11-23.md` | Third-party compilation of the Virginia record for Ecodome Foundation. Address, agent, and officer names were left out. |
 | `ix-art-park-website-2026-11-23.md` | Paraphrase of the IX Art Park home and rentals pages, accessed 2026-11-23. Phone, email, street address, and EIN were left out. |
 | `cville-weekly-ix-nest-2016.md` | Short note from an August 24, 2016 C-VILLE Weekly roundup describing the Nest exhibit's geodesic dome. Artist surnames were left out. |
+| `ecodome-feasibility-research-2026-11-23.md` | Draft feasibility study of a 50-foot multimedia geodome business, dated 2026-11-23. The preparer's name and references to a private buyer were generalized before filing. |
 
 The PDF contains photographs of people, a vendor phone number, surnames, and a personal quotation. Those stay in the raw file. Concept pages do not transcribe them. See AGENTS.md.

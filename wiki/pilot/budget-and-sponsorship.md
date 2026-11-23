@@ -19,6 +19,9 @@ sources:
   - id: alignable
     resource: /sources/alignable-listing.md
     title: Alignable listing
+  - id: feasibility
+    resource: /sources/feasibility-research.md
+    title: Feasibility research, November 2026
 ---
 
 # Goal
@@ -69,7 +72,12 @@ The $175,000 allocation is the deck's proposal. Other public pages use different
 
 The insurance-and-permits line above is a planning number. No source records a permit application or a paid fee. The [values page](../community/values.md) is where the community's independence preference is kept next to these asks.
 
+# A separate feasibility range
+
+The [November 2026 feasibility study](../sources/feasibility-research.md) does not use $175,000. Its planning estimates, which it says are not quotes, put a multimedia layer at about $115,000 on an entry tier and about $275,000 or more on a professional tier, and starting capital for a professional launch at $250,000 to $400,000. A first-year insurance package is estimated at $12,000 to $25,000, against about $2,000 for insurance and permits together on the deck. The study is about buying and operating a projection dome. The deck is about a five-day pilot. Both stay on the record. The estimates are unpacked on the [financial model](../business/financial-model.md) and the [projection page](../dome/projection-and-av.md).[^feasibility]
+
 [^explorers-deck]: AI Explorers presentation
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
+[^feasibility]: Feasibility research, November 2026
