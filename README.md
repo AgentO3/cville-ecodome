@@ -6,6 +6,8 @@ It follows Andrej Karpathy's [LLM wiki](https://gist.github.com/karpathy/442a6bf
 
 The pages are a starting synthesis. They are `draft` and unverified until a person checks them. Trust is recorded in frontmatter, not implied by the prose.
 
+A generated graph of the same pages is published from `main` at <https://agento3.github.io/cville-ecodome/>. It is rebuilt by `scripts/build_site.py` whenever the wiki changes. Do not edit the graph by hand.
+
 ## Layout
 
 ```text

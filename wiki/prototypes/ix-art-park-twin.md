@@ -15,10 +15,10 @@ sources:
 
 # What exists
 
-The [community notes](/sources/community-context.md) credit Kahlil with a digital twin at <https://eco-dome-ix-art-park.netlify.app/>. They describe 360-degree views and satellite placement of the dome.[^community-context]
+The [community notes](../sources/community-context.md) credit Kahlil with a digital twin at <https://eco-dome-ix-art-park.netlify.app/>. They describe 360-degree views and satellite placement of the dome.[^community-context]
 
-The notes do not describe the twin's geometry source, whether it uses the 50-foot baseline, or how it relates to the [EARS simulator build](/prototypes/ears-simulator.md). The [EARS specification](/sources/ears-spec.md) does not mention this URL. The [AI Explorers deck](/sources/ai-explorers-deck.md) does not mention it either.
+The notes do not describe the twin's geometry source, whether it uses the 50-foot baseline, or how it relates to the [EARS simulator build](ears-simulator.md). The [EARS specification](../sources/ears-spec.md) does not mention this URL. The [AI Explorers deck](../sources/ai-explorers-deck.md) does not mention it either.
 
-The [IX Art Park](/venue/ix-art-park.md) association is the reason the notes give this twin its place. The [project overview](/project.md) keeps the twin, the simulator, and the April 2027 pilot as separate artifacts.
+The [IX Art Park](../venue/ix-art-park.md) association is the reason the notes give this twin its place. The [project overview](../project.md) keeps the twin, the simulator, and the April 2027 pilot as separate artifacts.
 
 [^community-context]: Community context notes

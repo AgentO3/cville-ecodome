@@ -45,7 +45,7 @@ verified: { by: human:firstname, at: "2026-11-23T00:00:00Z" }
 
 A local file source (anything that is not a `.md` concept or a URL) has a `sha256` of its bytes. Source-summary pages are the only concepts that point at `raw/`. Other concepts point at those summaries with `resource: /sources/<id>.md`, so lineage stays inside the bundle.
 
-Concept-to-concept links use OKF bundle-absolute paths: `[April 2027 pilot](/pilot/april-2027.md)`. Index entries use relative links, because OKF indexes are directory listings: `* [Title](page.md) - The description field, copied exactly.`
+Concept-to-concept links in page bodies are file-relative and include the `.md` extension, so GitHub can open them. From `wiki/pilot/april-2027.md`, that is `[budget](budget-and-sponsorship.md)` or `[IX Art Park](../venue/ix-art-park.md)`. A bundle-absolute body link such as `/pilot/april-2027.md` 404s on GitHub because the renderer starts at the repository root and skips `wiki/`. Frontmatter `sources.resource` stays bundle-absolute (`/sources/ears-spec.md`): that field is for agents, not GitHub's renderer. Index entries stay relative directory listings: `* [Title](page.md) - The description field, copied exactly.`
 
 Type values used here:
 
@@ -118,6 +118,24 @@ Operations: `Initialization`, `Ingest`, `Update`, `Query`, `Lint`, `Deprecation`
 
 Karpathy's `## [YYYY-MM-DD] ingest | Title` prefix is the same idea. OKF's date heading plus the bold operation is the form this repo uses.
 
+## Knowledge graph
+
+The public graph is generated. Do not hand-edit graph JSON, `dist/`, or the Pages output.
+
+`python scripts/build_site.py` reads `wiki/` and writes a static site:
+
+- A node is one OKF concept (every non-reserved `.md` file). Its type, title, description, status, tags, sources, and trust tier come from frontmatter. Trust is `unverified` when `verified` is absent, `machine-confirmed` when only non-human actors have verified it, and `human-reviewed` when a `human:` actor has.
+- An edge is either a markdown link from one concept to another (`link`) or a `sources` entry whose `resource` points at another concept (`cites`).
+
+A weekly librarian keeps the graph current by keeping the wiki current. After an ingest, query filing, or lint pass, run `python scripts/validate_okf.py`. Do not maintain a separate graph. A push to `main` rebuilds the site and deploys it to GitHub Pages at <https://agento3.github.io/cville-ecodome/>. Pull requests build the site without deploying it.
+
+Preview locally:
+
+```bash
+python scripts/build_site.py --base / --out dist
+python -m http.server -d dist
+```
+
 ## Commands
 
 ```bash
@@ -125,6 +143,7 @@ python scripts/validate_okf.py
 python scripts/validate_okf.py --self-test
 python wiki/references/attesters/feet-to-meters.py
 python wiki/references/attesters/pilot-budget.py
+python scripts/build_site.py --base /cville-ecodome/ --out dist
 ```
 
-`PyYAML` is the only dependency (`requirements-dev.txt`). GitHub Actions runs the same commands.
+Dependencies are in `requirements-dev.txt` (PyYAML and Markdown). GitHub Actions runs the validator, the attesters, and the site build. Deployment runs only on a push to `main`.

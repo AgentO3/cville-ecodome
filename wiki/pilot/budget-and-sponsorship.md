@@ -14,9 +14,9 @@ sources:
 
 # Goal
 
-The [AI Explorers deck](/sources/ai-explorers-deck.md) prints a fundraising goal of $175,000 for Charlottesville's 2027 pilot. The slide says the pilot's scope, location, programming, and partnership terms remain subject to approval. The allocation slide says the figures are a proposed allocation and that final costs, scope, and category boundaries remain under review.[^explorers-deck]
+The [AI Explorers deck](../sources/ai-explorers-deck.md) prints a fundraising goal of $175,000 for Charlottesville's 2027 pilot. The slide says the pilot's scope, location, programming, and partnership terms remain subject to approval. The allocation slide says the figures are a proposed allocation and that final costs, scope, and category boundaries remain under review.[^explorers-deck]
 
-The six approximate lines sum to that goal. The sum is the [pilot budget computation](/computations/pilot-budget.md), not a second source of the numbers.
+The six approximate lines sum to that goal. The sum is the [pilot budget computation](../computations/pilot-budget.md), not a second source of the numbers.
 
 | Line | Approximate amount |
 | --- | ---: |
@@ -46,8 +46,8 @@ Proposed benefits, which the deck says depend on partner agreements, site approv
 | Presence | Dome signage and invitations to dome events. A role in the experience tied to the sponsor's focus area, by agreement. |
 | Priority access | Proposed reserved seats, early registration, and guest passes. Limits and availability would be agreed so public access is protected. |
 
-The deck invites a sponsor conversation with the EcoDome team and, on the path slide, with Coco. The [values page](/community/values.md) records a separate community preference about who funds the project. This page does not treat the preference and the sponsorship ask as the same decision.
+The deck invites a sponsor conversation with the EcoDome team and, on the path slide, with Coco. The [values page](../community/values.md) records a separate community preference about who funds the project. This page does not treat the preference and the sponsorship ask as the same decision.
 
-The showcase these figures belong to is the [April 2027 pilot](/pilot/april-2027.md).
+The showcase these figures belong to is the [April 2027 pilot](april-2027.md).
 
 [^explorers-deck]: AI Explorers presentation

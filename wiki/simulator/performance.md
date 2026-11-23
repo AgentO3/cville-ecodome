@@ -14,7 +14,7 @@ sources:
 
 # Requirements
 
-The [EARS specification](/sources/ears-spec.md) says the thresholds in this section are proposed engineering targets, subject to validation on physical devices. They apply to the [spatial simulator](/simulator/spatial-simulator.md).[^ears-spec]
+The [EARS specification](../sources/ears-spec.md) says the thresholds in this section are proposed engineering targets, subject to validation on physical devices. They apply to the [spatial simulator](spatial-simulator.md).[^ears-spec]
 
 | ID | Pri | Statement | Acceptance |
 | --- | --- | --- | --- |
@@ -24,6 +24,6 @@ The [EARS specification](/sources/ears-spec.md) says the thresholds in this sect
 | ECD-PERF-004 | P1 | If the enhanced AR runtime loses spatial tracking, the simulator shall suspend interactions that depend on accurate placement until tracking recovers. | Those actions stay disabled while tracking is unavailable and resume after successful relocalization. |
 | ECD-PERF-005 | P0 | The simulator shall pass the supported-mode acceptance tests on an agreed set of physical iPhone devices and iOS/Safari versions before public release. | A device-test report records the OS version, device model, AR mode, observed behavior, and pass/fail result for each test. |
 
-The enhanced runtime in ECD-PERF-004 is the P1 mode on the [AR page](/simulator/augmented-reality.md). The states those failures map onto are in the [architecture](/simulator/architecture.md). The [acceptance page](/simulator/acceptance-and-delivery.md) includes the device tests in the definition of done.
+The enhanced runtime in ECD-PERF-004 is the P1 mode on the [AR page](augmented-reality.md). The states those failures map onto are in the [architecture](architecture.md). The [acceptance page](acceptance-and-delivery.md) includes the device tests in the definition of done.
 
 [^ears-spec]: EARS requirements specification

@@ -14,8 +14,8 @@ sources:
 
 # What the deck shows
 
-One slide of the [AI Explorers deck](/sources/ai-explorers-deck.md) is titled "From an image to an experience." It credits "Coco + Kahlil: exploring an immersive EcoDome experience" and shows three stages: the starting point, the work in progress, and the possibility. The caption says the work is in progress and that the final dome image is a concept visualization. A Reality Hack mark appears on the slide.[^explorers-deck]
+One slide of the [AI Explorers deck](../sources/ai-explorers-deck.md) is titled "From an image to an experience." It credits "Coco + Kahlil: exploring an immersive EcoDome experience" and shows three stages: the starting point, the work in progress, and the possibility. The caption says the work is in progress and that the final dome image is a concept visualization. A Reality Hack mark appears on the slide.[^explorers-deck]
 
-No URL, tool list, or file format is printed. This is not the [EARS spatial-simulator build](/prototypes/ears-simulator.md) and not the [IX Art Park digital twin](/prototypes/ix-art-park-twin.md). It sits next to the [pilot's](/pilot/april-2027.md) content experiments and the [immersive-content](/dome/immersive-content.md) proposals.
+No URL, tool list, or file format is printed. This is not the [EARS spatial-simulator build](ears-simulator.md) and not the [IX Art Park digital twin](ix-art-park-twin.md). It sits next to the [pilot's](../pilot/april-2027.md) content experiments and the [immersive-content](../dome/immersive-content.md) proposals.
 
 [^explorers-deck]: AI Explorers presentation

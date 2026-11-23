@@ -14,7 +14,7 @@ sources:
 
 # Requirements
 
-These ECD-INT requirements are from the [EARS specification](/sources/ears-spec.md). They govern the browser viewer of the [spatial simulator](/simulator/spatial-simulator.md). The environments they must not discard are the [immersive content](/dome/immersive-content.md) presets.[^ears-spec]
+These ECD-INT requirements are from the [EARS specification](../sources/ears-spec.md). They govern the browser viewer of the [spatial simulator](spatial-simulator.md). The environments they must not discard are the [immersive content](../dome/immersive-content.md) presets.[^ears-spec]
 
 | ID | Pri | Statement | Acceptance |
 | --- | --- | --- | --- |
@@ -25,6 +25,6 @@ These ECD-INT requirements are from the [EARS specification](/sources/ears-spec.
 | ECD-INT-005 | P0 | The simulator shall provide touch-accessible controls for view selection, environment selection, model scale, and AR launch. | Primary controls work without a mouse, keyboard, or hover. |
 | ECD-INT-006 | P1 | When a user changes viewing mode, the simulator shall keep the selected immersive environment and model configuration where the destination mode supports them. | Switching between exterior and interior does not reset the selected scene. |
 
-Cutaway rendering is also ECD-GEO-004 on the [geometry page](/dome/geometry.md). AR launch from these controls is specified on the [AR page](/simulator/augmented-reality.md).
+Cutaway rendering is also ECD-GEO-004 on the [geometry page](../dome/geometry.md). AR launch from these controls is specified on the [AR page](augmented-reality.md).
 
 [^ears-spec]: EARS requirements specification

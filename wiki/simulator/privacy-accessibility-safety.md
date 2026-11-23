@@ -14,7 +14,7 @@ sources:
 
 # Requirements
 
-These ECD-SEC and ECD-ACC requirements are from the [EARS specification](/sources/ears-spec.md). They apply to the [spatial simulator](/simulator/spatial-simulator.md), including its [AR modes](/simulator/augmented-reality.md).[^ears-spec]
+These ECD-SEC and ECD-ACC requirements are from the [EARS specification](../sources/ears-spec.md). They apply to the [spatial simulator](spatial-simulator.md), including its [AR modes](augmented-reality.md).[^ears-spec]
 
 | ID | Pri | Statement | Acceptance |
 | --- | --- | --- | --- |
@@ -25,6 +25,6 @@ These ECD-SEC and ECD-ACC requirements are from the [EARS specification](/source
 | ECD-ACC-001 | P0 | The browser-based simulator shall expose text labels and accessible names for all primary controls. | Controls can be identified with supported screen-reader navigation in the browser. |
 | ECD-ACC-002 | P1 | Where the user has enabled reduced-motion preferences, the browser viewer shall reduce nonessential animated camera transitions and environmental motion. | A reduced-motion preference test produces the documented behavior. |
 
-The specification's definition of done includes camera privacy, HTTPS, and the full-scale safeguard. That checklist is on the [acceptance page](/simulator/acceptance-and-delivery.md).
+The specification's definition of done includes camera privacy, HTTPS, and the full-scale safeguard. That checklist is on the [acceptance page](acceptance-and-delivery.md).
 
 [^ears-spec]: EARS requirements specification

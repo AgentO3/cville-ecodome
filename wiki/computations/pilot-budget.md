@@ -44,8 +44,8 @@ def allocation_total() -> dict:
 
 # What this checks
 
-The [AI Explorers deck](/sources/ai-explorers-deck.md) prints six approximate line items and a $175,000 fundraising goal. The line items use an "approximately" mark. The slide says the allocation is proposed and that final costs, scope, and category boundaries remain under review.[^explorers-deck]
+The [AI Explorers deck](../sources/ai-explorers-deck.md) prints six approximate line items and a $175,000 fundraising goal. The line items use an "approximately" mark. The slide says the allocation is proposed and that final costs, scope, and category boundaries remain under review.[^explorers-deck]
 
-This computation does not decide that the budget is approved. It checks the arithmetic the slide presents: the six lines sum to 175000. A consumer runs the fence through [the Python executor](/references/executors/run-python.md). The narrative, the access model, and the sponsor terms are on the [budget page](/pilot/budget-and-sponsorship.md). There are no parameters. A changed figure is a new revision of this concept, not an agent-supplied argument.
+This computation does not decide that the budget is approved. It checks the arithmetic the slide presents: the six lines sum to 175000. A consumer runs the fence through [the Python executor](../references/executors/run-python.md). The narrative, the access model, and the sponsor terms are on the [budget page](../pilot/budget-and-sponsorship.md). There are no parameters. A changed figure is a new revision of this concept, not an agent-supplied argument.
 
 [^explorers-deck]: AI Explorers presentation

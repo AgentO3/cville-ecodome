@@ -15,12 +15,12 @@ sources:
 
 # What exists
 
-The [community notes](/sources/community-context.md) say Owen prototyped spatial simulators from the EARS specification. They identify a Grok Bot version at <https://ecodome-simulator.netlify.app>, built with Three.js and iPhone AR Quick Look. They also name Claude and Muse prototypes and do not record URLs for those builds.[^community-context]
+The [community notes](../sources/community-context.md) say Owen prototyped spatial simulators from the EARS specification. They identify a Grok Bot version at <https://ecodome-simulator.netlify.app>, built with Three.js and iPhone AR Quick Look. They also name Claude and Muse prototypes and do not record URLs for those builds.[^community-context]
 
-The notes are the source for the claim that this URL implements the spec. The [specification](/sources/ears-spec.md) itself does not list a deployment URL. The product the spec describes is the [spatial simulator](/simulator/spatial-simulator.md). An [outdoor full-scale placement](/prototypes/outdoor-placement.md) is recorded separately.
+The notes are the source for the claim that this URL implements the spec. The [specification](../sources/ears-spec.md) itself does not list a deployment URL. The product the spec describes is the [spatial simulator](../simulator/spatial-simulator.md). An [outdoor full-scale placement](outdoor-placement.md) is recorded separately.
 
 The same notes mention Owen's earlier WebVR work, the Roomkey A-Frame art gallery at <https://agento3.github.io/a-frame-art-gallery/>. That gallery is prior work, not an EcoDome build.
 
-The [IX Art Park digital twin](/prototypes/ix-art-park-twin.md) is a different site, credited to Kahlil.
+The [IX Art Park digital twin](ix-art-park-twin.md) is a different site, credited to Kahlil.
 
 [^community-context]: Community context notes

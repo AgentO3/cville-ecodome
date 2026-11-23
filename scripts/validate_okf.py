@@ -314,12 +314,7 @@ def check_project_lint(rel: str, data: dict, body: str, path: Path, bundle: Path
     if uncited:
         errors.append(f"{where}: sources ids never cited: {', '.join(uncited)}")
 
-    for destination in LINK_RE.findall(prose):
-        target = resolve_md_link(destination, path, bundle)
-        if target is None:
-            continue
-        if not target.exists():
-            errors.append(f"{where}: broken link ({destination})")
+    errors.extend(check_links_exist(path, bundle, body, where))
 
     for key in ("executor", "attester"):
         block = data.get(key)
@@ -383,11 +378,23 @@ def check_log(path: Path, bundle: Path, text: str, has_fm: bool) -> list[str]:
 
 
 def check_links_exist(path: Path, bundle: Path, text: str, where: str) -> list[str]:
+    """Body links must be file-relative and resolve.
+
+    A leading-slash link is bundle-absolute OKF. GitHub renders it from the
+    repository root, so `/pilot/april-2027.md` skips `wiki/` and 404s.
+    Frontmatter `resource` paths are not body links and stay bundle-absolute.
+    """
     errors = []
     for destination in LINK_RE.findall(strip_fences(text)):
+        path_part = destination.split("#", 1)[0]
+        if path_part.startswith("/") and not path_part.startswith("//"):
+            errors.append(
+                f"{where}: body link must be file-relative so it resolves on GitHub ({destination})"
+            )
+            continue
         target = resolve_md_link(destination, path, bundle)
         if target is not None and not target.exists():
-            errors.append(f"{where}: broken link ({destination})")
+            errors.append(f"{where}: broken relative link ({destination})")
     return errors
 
 
@@ -551,11 +558,17 @@ def self_test() -> list[str]:
             "generated: { by: cursor-cloud-agent/grok-4.7, at: \"2026-11-23T00:00:00Z\" }\n"
             "sources:\n"
             "  - { id: spec, resource: https://example.com/spec, title: Spec }\n"
-            "---\n\n[Missing](/missing.md).[^spec]\n\n[^spec]: Spec\n",
+            "---\n\n[Missing](missing.md).[^spec]\n\n[^spec]: Spec\n",
             encoding="utf-8",
         )
-        if not any("broken link" in error for error in validate(bundle)):
-            failures.append("broken link was accepted")
+        if not any("broken relative link" in error for error in validate(bundle)):
+            failures.append("broken relative link was accepted")
+        broken.write_text(
+            broken.read_text(encoding="utf-8").replace("(missing.md)", "(/missing.md)"),
+            encoding="utf-8",
+        )
+        if not any("file-relative" in error for error in validate(bundle)):
+            failures.append("bundle-absolute body link was accepted")
     return failures
 
 
