@@ -1,10 +1,10 @@
 ---
 type: Structure
 title: Dome geometry
-description: Nominal 50-foot size, the hemisphere assumption, and the portable-dome package in the pilot deck.
+description: Nominal 50-foot size, with the deck's projection package and the public site's LED-panel wording both on the record.
 status: draft
 tags: [ecodome, dome, geometry]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T13:10:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
 stale_after: "2027-03-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -16,6 +16,12 @@ sources:
   - id: community-context
     resource: /sources/community-context.md
     title: Community context notes
+  - id: official-site
+    resource: /sources/official-site.md
+    title: Official site
+  - id: interview
+    resource: /sources/canvasrebel-interview.md
+    title: CanvasRebel founder interview
 ---
 
 # Nominal size
@@ -35,6 +41,20 @@ Both the [EARS specification](../sources/ears-spec.md) and the [AI Explorers dec
 The meter figures are reconstructed by the [nominal-diameter computation](../computations/dome-diameter.md). Height equals radius only under the hemisphere assumption. The [community notes](../sources/community-context.md) say "~250 audience capacity" and do not split seated from standing.[^community-context]
 
 The deck says capacity depends on layout and approvals. The specification says seating arrangement is not finalized, and that a seating view must be labeled conceptual.
+
+# Other public wordings of the same size
+
+Later and earlier public pages use the 50-foot and 250-person figures without the deck's seated-versus-standing split, and they do not agree on the display technology.
+
+| Wording | Where it appears |
+| --- | --- |
+| 50-foot LED-panel dome designed to fit 250 people | [Official site](../sources/official-site.md), read 2026-11-23[^official-site] |
+| 50-foot interactive dome for gatherings of up to 250 people | Founder interview, April 10, 2025[^interview] |
+| Pacific Domes 50-foot suspended projection package; 175 seated and 250 standing, both proposed | Pilot deck[^explorers-deck] |
+| 50-foot hemisphere, about 250 people, hemispherical video dome | Community notes[^community-context] |
+| LED panel geometry not finalized; panel grid is a simulator option | EARS specification[^ears-spec] |
+
+No source says the Pacific Domes package has been purchased, or that an LED-panel system has been specified. [Site options](../venue/site-options.md) records the matching gap for where a structure would stand. The disagreement stays on the [questions page](../questions/open-questions.md).
 
 # Proposed pilot structure
 
@@ -60,3 +80,5 @@ The Pacific Domes openings are not yet written into those requirements. The [spa
 [^ears-spec]: EARS requirements specification
 [^explorers-deck]: AI Explorers presentation
 [^community-context]: Community context notes
+[^official-site]: Official site
+[^interview]: CanvasRebel founder interview

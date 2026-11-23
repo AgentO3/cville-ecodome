@@ -2,7 +2,7 @@
 
 # Posture
 
-* [Community values and funding](values.md) - Recorded preference for independence, set beside the pilot's proposed sponsorship model.
+* [Community values and funding](values.md) - Independence preference, set beside sponsorship, donations, and a membership campaign.
 
 # Cadence
 

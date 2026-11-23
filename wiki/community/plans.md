@@ -25,5 +25,7 @@ The same notes say Coco and Tina presented the dome at the Cville AI Explorers m
 
 The [April 2027 pilot](../pilot/april-2027.md) is a proposed public showcase, not one of these community meetings. The [values page](values.md) is where the funding preference from the same notes is kept. Items the notes leave open are on the [questions page](../questions/open-questions.md).
 
+The video jam's date is 2026-11-23. No source filed after the notes reports whether that meeting happened. The [questions page](../questions/open-questions.md) records the gap.
+
 [^community-context]: Community context notes
 [^explorers-deck]: AI Explorers presentation
