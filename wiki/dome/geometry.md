@@ -22,6 +22,9 @@ sources:
   - id: interview
     resource: /sources/canvasrebel-interview.md
     title: CanvasRebel founder interview
+  - id: feasibility
+    resource: /sources/feasibility-research.md
+    title: Feasibility research, November 2026
 ---
 
 # Nominal size
@@ -54,6 +57,8 @@ Later and earlier public pages use the 50-foot and 250-person figures without th
 | 50-foot hemisphere, about 250 people, hemispherical video dome | Community notes[^community-context] |
 | LED panel geometry not finalized; panel grid is a simulator option | EARS specification[^ears-spec] |
 
+A [feasibility study](../sources/feasibility-research.md) provided by the project team adds a third display wording and a wider capacity range. It describes multi-projector 360-degree projection onto a liner, not an LED panel, and it quotes other operators at about 150 to 200 seated and 260 to 300 standing. It also says the fire official sets the real load, and that a projection layout holds fewer people than a brochure. Floor area in that study is about 1,905 to 1,962 square feet, and apex height is about 25 feet, which matches the hemisphere height in feet on this page. A frame and cover are described as available to purchase, without liner or AV. None of that is a purchase or a chosen system. Hardware prices are on [dome hardware](hardware.md).[^feasibility]
+
 No source says the Pacific Domes package has been purchased, or that an LED-panel system has been specified. [Site options](../venue/site-options.md) records the matching gap for where a structure would stand. The disagreement stays on the [questions page](../questions/open-questions.md).
 
 # Proposed pilot structure
@@ -82,3 +87,4 @@ The Pacific Domes openings are not yet written into those requirements. The [spa
 [^community-context]: Community context notes
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
+[^feasibility]: Feasibility research, November 2026

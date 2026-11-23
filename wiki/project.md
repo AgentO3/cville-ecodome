@@ -1,7 +1,7 @@
 ---
 type: Project
 title: EcoDome Charlottesville
-description: Proposed Charlottesville immersive dome, from the public site, the pilot deck, the community notes, and the simulator specification.
+description: Proposed Charlottesville immersive dome, from the public site, the pilot deck, the notes, the simulator specification, and a 2026 feasibility study.
 status: draft
 tags: [ecodome, charlottesville]
 generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
@@ -25,6 +25,9 @@ sources:
   - id: alignable
     resource: /sources/alignable-listing.md
     title: Alignable listing
+  - id: feasibility
+    resource: /sources/feasibility-research.md
+    title: Feasibility research, November 2026
 ---
 
 # Summary
@@ -36,6 +39,8 @@ The [AI Explorers deck](sources/ai-explorers-deck.md) describes a temporary dome
 The [community notes](sources/community-context.md) describe the same effort as a hemispherical video dome associated with [IX Art Park](venue/ix-art-park.md), about 50 feet across, with an audience on the order of 250 people.[^community-context] The deck's nominal size is also 50 feet. It distinguishes a proposed seated capacity of 175 from a proposed standing capacity of 250, and it says the site is not yet confirmed. An April 10, 2025 [interview](sources/canvasrebel-interview.md) describes a 50-foot interactive dome for gatherings of up to 250 people. See [dome geometry](dome/geometry.md), the [April 2027 pilot](pilot/april-2027.md), and [site options](venue/site-options.md).[^interview]
 
 A Virginia compilation lists [Ecodome Cville, LLC](organization/ecodome-cville-llc.md) as an active entity with an incorporate date of February 21, 2025. A separate [spatial simulator](simulator/spatial-simulator.md) is specified so people can explore, place, and preview a digital model before the architecture is final.[^ears-spec]
+
+A [feasibility study](sources/feasibility-research.md) provided by the project team on 2026-11-23 sketches a different operating idea: mobile dome rentals plus a seasonal ticketed run. It is a draft. It does not replace the pilot or the public site. The sketch is the [hybrid model](business/hybrid-model.md).[^feasibility]
 
 # Lines the project uses
 
@@ -54,7 +59,7 @@ First names and roles only.
 
 # Where to go next
 
-The pilot's proposed money and sponsor terms are on the [budget page](pilot/budget-and-sponsorship.md). The case the deck makes for a fulldome is [why a dome](evidence/why-a-dome.md). Community preferences about funding sit beside the public donation and membership language on the [values page](community/values.md). Unsettled items are collected as [open questions](questions/open-questions.md).
+The pilot's proposed money and sponsor terms are on the [budget page](pilot/budget-and-sponsorship.md). The study's separate capital and profit estimates are on the [financial model](business/financial-model.md). The case the deck makes for a fulldome is [why a dome](evidence/why-a-dome.md). Community preferences about funding sit beside the public donation and membership language on the [values page](community/values.md). Unsettled items are collected as [open questions](questions/open-questions.md).
 
 [^explorers-deck]: AI Explorers presentation
 [^community-context]: Community context notes
@@ -62,3 +67,4 @@ The pilot's proposed money and sponsor terms are on the [budget page](pilot/budg
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
+[^feasibility]: Feasibility research, November 2026

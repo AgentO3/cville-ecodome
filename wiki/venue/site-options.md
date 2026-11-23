@@ -25,6 +25,9 @@ sources:
   - id: nest-2016
     resource: /sources/ix-nest-2016.md
     title: IX Nest exhibit, 2016
+  - id: feasibility
+    resource: /sources/feasibility-research.md
+    title: Feasibility research, November 2026
 ---
 
 # No site is confirmed
@@ -45,6 +48,10 @@ The interview is older than the deck. "Speaking with location partners" in April
 
 A 2016 C-VILLE Weekly article describes an IX exhibit called Nest, built over a geodesic dome that had been at Burning Man. That article does not mention EcoDome. The park pages read on 2026-11-23 do not mention Nest or any dome, so this wiki does not claim the structure is still in the courtyard, and it does not call it vegetative. It is not the 50-foot EcoDome.[^nest-2016]
 
+# A host site, not a new parcel, in the feasibility study
+
+The [feasibility research](../sources/feasibility-research.md) still does not name an EcoDome address. It argues that a ticketed season is faster at an existing permitted venue, such as a winery, brewery, event farm, or a commercially zoned site, than on land the project would permit itself. In Albemarle County it cites a special use permit for many rural event rentals, described in county guidance as about $2,500 and at least six months, with farm-beverage sites able to host some events by right and events over 200 people still needing a permit. It also says a dome standing 180 days or more is no longer a temporary tent. Those rules are on the [permits page](../regulations/virginia-permits.md). They do not select IX Art Park, downtown, or a winery.[^feasibility]
+
 The [geometry page](../dome/geometry.md) is where the 50-foot proposals are compared. The [project overview](../project.md) is the wider effort. Unsettled points stay on the [questions page](../questions/open-questions.md).
 
 [^explorers-deck]: AI Explorers presentation
@@ -53,3 +60,4 @@ The [geometry page](../dome/geometry.md) is where the 50-foot proposals are comp
 [^interview]: CanvasRebel founder interview
 [^ix-website]: IX Art Park website
 [^nest-2016]: IX Nest exhibit, 2016
+[^feasibility]: Feasibility research, November 2026

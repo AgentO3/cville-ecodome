@@ -8,7 +8,7 @@ OKF v0.2 bundle for the EcoDome Charlottesville project. Read a section index be
 
 # Project
 
-* [EcoDome Charlottesville](project.md) - Proposed Charlottesville immersive dome, from the public site, the pilot deck, the community notes, and the simulator specification.
+* [EcoDome Charlottesville](project.md) - Proposed Charlottesville immersive dome, from the public site, the pilot deck, the notes, the simulator specification, and a 2026 feasibility study.
 
 # Organization
 
@@ -20,7 +20,23 @@ OKF v0.2 bundle for the EcoDome Charlottesville project. Read a section index be
 
 # Dome
 
-* [Dome](dome/) - Physical dome, its dimensions, and the content planned for it.
+* [Dome](dome/) - Physical dome, its dimensions, published hardware prices, and projection-cost estimates.
+
+# Business
+
+* [Business](business/) - A hybrid rental and ticketed-show sketch, with prices and an illustrative profit model.
+
+# Operations
+
+* [Operations](operations/) - Install time, crew, and what each booking needs on site.
+
+# Regulations
+
+* [Regulations](regulations/) - Virginia tent, zoning, and insurance points from the feasibility study.
+
+# Competition
+
+* [Competition](competition/) - National dome companies and local venues named as competitors.
 
 # Pilot
 
