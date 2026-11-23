@@ -14,7 +14,7 @@ sources:
 
 # Claims as printed
 
-The [AI Explorers deck](/sources/ai-explorers-deck.md) uses three themes and one comparison. This page records the sentences on the slides. It does not retrieve or evaluate the cited papers.[^explorers-deck]
+The [AI Explorers deck](../sources/ai-explorers-deck.md) uses three themes and one comparison. This page records the sentences on the slides. It does not retrieve or evaluate the cited papers.[^explorers-deck]
 
 | Theme | Claim on the slide | Citation printed |
 | --- | --- | --- |
@@ -26,6 +26,6 @@ A further slide states that in a study of 781 undergraduates learning about moon
 
 # How this relates to the project
 
-The [April 2027 pilot](/pilot/april-2027.md) says it does not promise a research outcome. These slides are an argument for the form of the venue, not a study plan. The [spatial simulator](/simulator/spatial-simulator.md) previews dome imagery; it does not claim the learning result. The [project overview](/project.md) is the place those pieces meet.
+The [April 2027 pilot](../pilot/april-2027.md) says it does not promise a research outcome. These slides are an argument for the form of the venue, not a study plan. The [spatial simulator](../simulator/spatial-simulator.md) previews dome imagery; it does not claim the learning result. The [project overview](../project.md) is the place those pieces meet.
 
 [^explorers-deck]: AI Explorers presentation

@@ -14,7 +14,7 @@ sources:
 
 # Requirements
 
-These are the ECD-AR requirements from the [EARS specification](/sources/ears-spec.md). The product they belong to is the [spatial simulator](/simulator/spatial-simulator.md). The unscaled model is the [15.24 m dome](/dome/geometry.md), produced by the [diameter computation](/computations/dome-diameter.md).[^ears-spec]
+These are the ECD-AR requirements from the [EARS specification](../sources/ears-spec.md). The product they belong to is the [spatial simulator](spatial-simulator.md). The unscaled model is the [15.24 m dome](../dome/geometry.md), produced by the [diameter computation](../computations/dome-diameter.md).[^ears-spec]
 
 | Preset | Scale | Dome diameter |
 | --- | --- | --- |
@@ -35,6 +35,6 @@ These are the ECD-AR requirements from the [EARS specification](/sources/ears-sp
 | ECD-AR-009 | P1 | Where enhanced interactive AR is available, the simulator shall launch an ARKit-powered App Clip or an equivalent verified six-degree-of-freedom runtime. | The user can interact with live dome content while the dome remains spatially anchored. |
 | ECD-AR-010 | P1 | When the user places the dome in enhanced AR mode, the simulator shall create a session-scoped spatial anchor for the dome root. | Later interactions keep that anchor until the user explicitly moves or resets the model. |
 
-Full-scale placement has a safety notice on the [privacy and safety page](/simulator/privacy-accessibility-safety.md). A recorded outdoor placement of a full-scale model is the [outdoor demonstration](/prototypes/outdoor-placement.md); the notes do not say it was this acceptance test. The [architecture](/simulator/architecture.md) says Quick Look does not expose its tracking data to the page. Scenarios that exercise these requirements are on the [acceptance page](/simulator/acceptance-and-delivery.md).
+Full-scale placement has a safety notice on the [privacy and safety page](privacy-accessibility-safety.md). A recorded outdoor placement of a full-scale model is the [outdoor demonstration](../prototypes/outdoor-placement.md); the notes do not say it was this acceptance test. The [architecture](architecture.md) says Quick Look does not expose its tracking data to the page. Scenarios that exercise these requirements are on the [acceptance page](acceptance-and-delivery.md).
 
 [^ears-spec]: EARS requirements specification

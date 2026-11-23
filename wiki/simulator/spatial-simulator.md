@@ -14,7 +14,7 @@ sources:
 
 # Purpose
 
-The [EARS specification](/sources/ears-spec.md) defines the EcoDome Spatial Simulator as an interactive digital-twin concept of the proposed venue. It is for desktop and mobile browsers, with spatially tracked augmented reality on supported devices. The stated priority of version 1.0 is true spatially tracked AR on iPhone. Status is "Proposed implementation baseline."[^ears-spec]
+The [EARS specification](../sources/ears-spec.md) defines the EcoDome Spatial Simulator as an interactive digital-twin concept of the proposed venue. It is for desktop and mobile browsers, with spatially tracked augmented reality on supported devices. The stated priority of version 1.0 is true spatially tracked AR on iPhone. Status is "Proposed implementation baseline."[^ears-spec]
 
 Three experiences:
 
@@ -28,7 +28,7 @@ The primary success criterion in the specification: a visitor opens the experien
 
 | Property | Baseline |
 | --- | --- |
-| Dome | [50 ft / 15.24 m hemisphere](/dome/geometry.md), height assumed |
+| Dome | [50 ft / 15.24 m hemisphere](../dome/geometry.md), height assumed |
 | Audience in the model | 250 proposed, conceptual |
 | Rendering | Three.js, metric, Y-up |
 | Primary platform | iPhone / Safari |
@@ -36,7 +36,7 @@ The primary success criterion in the specification: a visitor opens the experien
 | Deployment | HTTPS |
 | Primary AR deliverable | USDZ through AR Quick Look |
 
-A public build identified as an implementation of this spec is the [EARS spatial-simulator build](/prototypes/ears-simulator.md). The spec does not name that URL. The [April 2027 pilot](/pilot/april-2027.md) is a physical showcase, not this software product.
+A public build identified as an implementation of this spec is the [EARS spatial-simulator build](../prototypes/ears-simulator.md). The spec does not name that URL. The [April 2027 pilot](../pilot/april-2027.md) is a physical showcase, not this software product.
 
 # How requirements are written
 
@@ -52,13 +52,13 @@ EARS patterns used in the specification:
 
 Priority: P0 is mandatory before initial acceptance, P1 is the next phase, P2 is later. There are 40 requirements, 28 of them P0, 11 P1, and 1 P2. They are filed by topic:
 
-- [Dome geometry](/dome/geometry.md) and [immersive content](/dome/immersive-content.md)
-- [Spatially tracked AR](/simulator/augmented-reality.md)
-- [Viewer interaction](/simulator/interaction.md)
-- [Performance and reliability](/simulator/performance.md)
-- [Privacy, accessibility, and safety](/simulator/privacy-accessibility-safety.md)
-- [Acceptance and delivery](/simulator/acceptance-and-delivery.md)
+- [Dome geometry](../dome/geometry.md) and [immersive content](../dome/immersive-content.md)
+- [Spatially tracked AR](augmented-reality.md)
+- [Viewer interaction](interaction.md)
+- [Performance and reliability](performance.md)
+- [Privacy, accessibility, and safety](privacy-accessibility-safety.md)
+- [Acceptance and delivery](acceptance-and-delivery.md)
 
-The proposed layering and state model are the [simulator architecture](/simulator/architecture.md). The [project overview](/project.md) is the venue this simulator is about.
+The proposed layering and state model are the [simulator architecture](architecture.md). The [project overview](../project.md) is the venue this simulator is about.
 
 [^ears-spec]: EARS requirements specification

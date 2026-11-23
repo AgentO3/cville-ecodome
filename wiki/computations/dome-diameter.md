@@ -42,8 +42,8 @@ def baseline(diameter_ft: float) -> dict:
 
 # What this checks
 
-The [EARS specification](/sources/ears-spec.md) states a nominal diameter of 50 ft / 15.24 m, a radius of 25 ft / 7.62 m, and a height of 7.62 m assumed for a hemisphere. It does not print the conversion factor. This computation reconstructs those meter figures as an international foot of 0.3048 m, and it sets height equal to radius only because the specification assumes a hemisphere.[^ears-spec]
+The [EARS specification](../sources/ears-spec.md) states a nominal diameter of 50 ft / 15.24 m, a radius of 25 ft / 7.62 m, and a height of 7.62 m assumed for a hemisphere. It does not print the conversion factor. This computation reconstructs those meter figures as an international foot of 0.3048 m, and it sets height equal to radius only because the specification assumes a hemisphere.[^ears-spec]
 
-`baseline(50)` returns diameter 15.24 m, radius 7.62 m, and height 7.62 m. The attester also runs a second parameter so the result is the formula rather than a hardcoded pair. A consumer runs the fence through [the Python executor](/references/executors/run-python.md). The [geometry page](/dome/geometry.md) explains what is still an assumption. The [AR scale presets](/simulator/augmented-reality.md) use the same 15.24 m baseline.
+`baseline(50)` returns diameter 15.24 m, radius 7.62 m, and height 7.62 m. The attester also runs a second parameter so the result is the formula rather than a hardcoded pair. A consumer runs the fence through [the Python executor](../references/executors/run-python.md). The [geometry page](../dome/geometry.md) explains what is still an assumption. The [AR scale presets](../simulator/augmented-reality.md) use the same 15.24 m baseline.
 
 [^ears-spec]: EARS requirements specification

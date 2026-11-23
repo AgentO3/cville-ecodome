@@ -21,12 +21,12 @@ The local copy is [ecodome-spatial-simulator-ears-v1.0.txt](../../raw/ecodome-sp
 
 # Scope
 
-The specification defines a browser and mobile [spatial simulator](/simulator/spatial-simulator.md): explore a Three.js model, place a scaled dome in spatially tracked AR, and preview immersive environments. It sets the nominal [dome geometry](/dome/geometry.md), then requirements for [AR](/simulator/augmented-reality.md), [interaction](/simulator/interaction.md), [immersive content](/dome/immersive-content.md), [performance](/simulator/performance.md), and [privacy, accessibility, and safety](/simulator/privacy-accessibility-safety.md). Delivery phases, MVP exclusions, and the definition of done are on the [acceptance page](/simulator/acceptance-and-delivery.md).
+The specification defines a browser and mobile [spatial simulator](../simulator/spatial-simulator.md): explore a Three.js model, place a scaled dome in spatially tracked AR, and preview immersive environments. It sets the nominal [dome geometry](../dome/geometry.md), then requirements for [AR](../simulator/augmented-reality.md), [interaction](../simulator/interaction.md), [immersive content](../dome/immersive-content.md), [performance](../simulator/performance.md), and [privacy, accessibility, and safety](../simulator/privacy-accessibility-safety.md). Delivery phases, MVP exclusions, and the definition of done are on the [acceptance page](../simulator/acceptance-and-delivery.md).
 
 It contains 40 numbered requirements: 28 at P0, 11 at P1, and 1 at P2. Each has an identifier and an acceptance check. The geometry, mounting, entrance, ribs, LED panels, and seating are explicitly not finalized. Performance numbers are proposed engineering targets.
 
 # What this file does not contain
 
-The specification does not mention the [April 2027 pilot](/pilot/april-2027.md), Tom Tom, IX Art Park, the published [digital twin](/prototypes/ix-art-park-twin.md), or the [simulator URL](/prototypes/ears-simulator.md). Those come from the [community notes](/sources/community-context.md) and the [AI Explorers deck](/sources/ai-explorers-deck.md).
+The specification does not mention the [April 2027 pilot](../pilot/april-2027.md), Tom Tom, IX Art Park, the published [digital twin](../prototypes/ix-art-park-twin.md), or the [simulator URL](../prototypes/ears-simulator.md). Those come from the [community notes](community-context.md) and the [AI Explorers deck](ai-explorers-deck.md).
 
 [^ears-file]: EcoDome Spatial Simulator EARS specification v1.0

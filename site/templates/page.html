@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="@@BASE@@">
+  <title>@@TITLE@@ · EcoDome wiki</title>
+  <meta name="description" content="@@DESCRIPTION@@">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="doc-page">
+  <header class="topbar">
+    <a class="mark" href="@@GRAPH@@">
+      <svg viewBox="0 0 48 28" aria-hidden="true"><path d="M4 26a20 20 0 0 1 40 0" fill="none" stroke="currentColor" stroke-width="2.4"/></svg>
+      <span>Graph</span>
+    </a>
+    <a class="text-button" href="@@GITHUB@@">View on GitHub</a>
+  </header>
+  <article class="sheet">
+    <p class="chips">
+      <span class="chip" style="--chip: @@COLOR@@">@@TYPE@@</span>
+      <span class="chip chip-plain">@@STATUS@@</span>
+      <span class="chip chip-plain">@@TRUST@@</span>
+    </p>
+    <h1>@@TITLE@@</h1>
+    <p class="lede">@@DESCRIPTION@@</p>
+    <p class="byline">Generated @@GENERATED@@</p>
+    <div class="prose">
+      @@BODY@@
+    </div>
+    <nav class="neighbors" aria-label="Related pages">
+      @@NEIGHBORS@@
+    </nav>
+  </article>
+</body>
+</html>

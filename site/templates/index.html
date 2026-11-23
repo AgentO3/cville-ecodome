@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="@@BASE@@">
+  <title>EcoDome knowledge graph</title>
+  <meta name="description" content="Interactive graph of the EcoDome Charlottesville OKF wiki.">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="graph-page">
+  <header class="topbar">
+    <a class="mark" href="index.html" aria-label="EcoDome graph home">
+      <svg viewBox="0 0 48 28" aria-hidden="true"><path d="M4 26a20 20 0 0 1 40 0" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M14 26a10 10 0 0 1 20 0" fill="none" stroke="currentColor" stroke-width="1.6" opacity=".7"/></svg>
+      <span>EcoDome</span>
+    </a>
+    <form class="search" role="search">
+      <label class="sr" for="q">Search the graph</label>
+      <input id="q" type="search" placeholder="Search pages, types, tags" autocomplete="off">
+    </form>
+    <p class="counts" id="counts" aria-live="polite"></p>
+  </header>
+  <div class="stage">
+    <aside class="legend" id="legend" aria-label="Types"></aside>
+    <div id="cy" class="cy" role="application" aria-label="Knowledge graph"></div>
+    <aside class="detail" id="detail">
+      <div class="detail-bar">
+        <button type="button" id="close-detail" class="text-button">Close</button>
+      </div>
+      <div id="detail-body"><p class="lede">Select a page on the graph.</p></div>
+    </aside>
+  </div>
+  <noscript>
+    <p class="noscript">This graph needs JavaScript. The same pages are linked from each concept once the site is built.</p>
+  </noscript>
+  <script src="vendor/cytoscape.min.js"></script>
+  <script src="assets/graph.js"></script>
+</body>
+</html>

@@ -20,7 +20,7 @@ sources:
 
 # Nominal size
 
-Both the [EARS specification](/sources/ears-spec.md) and the [AI Explorers deck](/sources/ai-explorers-deck.md) use a 50-foot dome. The specification states the design baseline in meters as well, and it tells the simulator to model that diameter in unscaled world coordinates.[^ears-spec][^explorers-deck]
+Both the [EARS specification](../sources/ears-spec.md) and the [AI Explorers deck](../sources/ai-explorers-deck.md) use a 50-foot dome. The specification states the design baseline in meters as well, and it tells the simulator to model that diameter in unscaled world coordinates.[^ears-spec][^explorers-deck]
 
 | Property | Value | Source |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ Both the [EARS specification](/sources/ears-spec.md) and the [AI Explorers deck]
 | Standing capacity | 250, proposed | Pilot deck |
 | Audience in the simulator | Up to 250, conceptual | EARS GEO-006 |
 
-The meter figures are reconstructed by the [nominal-diameter computation](/computations/dome-diameter.md). Height equals radius only under the hemisphere assumption. The [community notes](/sources/community-context.md) say "~250 audience capacity" and do not split seated from standing.[^community-context]
+The meter figures are reconstructed by the [nominal-diameter computation](../computations/dome-diameter.md). Height equals radius only under the hemisphere assumption. The [community notes](../sources/community-context.md) say "~250 audience capacity" and do not split seated from standing.[^community-context]
 
 The deck says capacity depends on layout and approvals. The specification says seating arrangement is not finalized, and that a seating view must be labeled conceptual.
 
@@ -55,7 +55,7 @@ The specification assumes the exact geometry, mounting height, entrance, structu
 | ECD-GEO-005 | P1 | Where structural visualization is enabled, the simulator shall render conceptual support ribs, LED panel boundaries, and venue fixtures. | Each architectural layer can be enabled or disabled independently. |
 | ECD-GEO-006 | P1 | Where seating visualization is enabled, the simulator shall display a conceptual audience arrangement with capacity markers for up to 250 people. | The configured seating count is displayed accurately and the layout is labeled conceptual. |
 
-The Pacific Domes openings are not yet written into those requirements. The [spatial simulator](/simulator/spatial-simulator.md) and the [open questions](/questions/open-questions.md) record that gap. Scale presets that divide this diameter are on the [AR page](/simulator/augmented-reality.md).
+The Pacific Domes openings are not yet written into those requirements. The [spatial simulator](../simulator/spatial-simulator.md) and the [open questions](../questions/open-questions.md) record that gap. Scale presets that divide this diameter are on the [AR page](../simulator/augmented-reality.md).
 
 [^ears-spec]: EARS requirements specification
 [^explorers-deck]: AI Explorers presentation

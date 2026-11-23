@@ -17,13 +17,13 @@ sources:
 
 # Cadence in the notes
 
-The [community notes](/sources/community-context.md) record three gathering plans: weekly discussion topics, a monthly voice chat on Discord, and a video jam on Monday, November 23, 2026. They do not list the weekly topics or the jam's program.[^community-context]
+The [community notes](../sources/community-context.md) record three gathering plans: weekly discussion topics, a monthly voice chat on Discord, and a video jam on Monday, November 23, 2026. They do not list the weekly topics or the jam's program.[^community-context]
 
-The same notes say Coco and Tina presented the dome at the Cville AI Explorers meetup in November 2026. The [AI Explorers presentation](/sources/ai-explorers-deck.md) is the deck from that setting. The PDF does not print the meetup's calendar date.[^explorers-deck]
+The same notes say Coco and Tina presented the dome at the Cville AI Explorers meetup in November 2026. The [AI Explorers presentation](../sources/ai-explorers-deck.md) is the deck from that setting. The PDF does not print the meetup's calendar date.[^explorers-deck]
 
 # What is a later event
 
-The [April 2027 pilot](/pilot/april-2027.md) is a proposed public showcase, not one of these community meetings. The [values page](/community/values.md) is where the funding preference from the same notes is kept. Items the notes leave open are on the [questions page](/questions/open-questions.md).
+The [April 2027 pilot](../pilot/april-2027.md) is a proposed public showcase, not one of these community meetings. The [values page](values.md) is where the funding preference from the same notes is kept. Items the notes leave open are on the [questions page](../questions/open-questions.md).
 
 [^community-context]: Community context notes
 [^explorers-deck]: AI Explorers presentation

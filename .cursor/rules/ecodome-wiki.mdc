@@ -7,4 +7,4 @@ This repository is an LLM-maintained knowledge wiki for EcoDome Charlottesville.
 
 Before ingesting sources, answering from the wiki, or editing wiki pages, read AGENTS.md at the repository root and follow it. The OKF bundle is `wiki/`. Files in `raw/` are immutable. Keep concept pages to project-level facts: first names and roles only, no contact details, no identification of people in photographs, no personal quotations.
 
-Run `python scripts/validate_okf.py` before finishing a wiki change. Where the LLM-wiki workflow and OKF overlap, OKF governs file format and AGENTS.md governs the workflow.
+Run `python scripts/validate_okf.py` before finishing a wiki change. The knowledge graph and GitHub Pages site are generated from `wiki/` by `scripts/build_site.py`. Do not hand-edit graph data. Where the LLM-wiki workflow and OKF overlap, OKF governs file format and AGENTS.md governs the workflow.

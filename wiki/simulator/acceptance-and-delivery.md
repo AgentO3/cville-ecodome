@@ -14,7 +14,7 @@ sources:
 
 # MVP scenarios
 
-The [EARS specification](/sources/ears-spec.md) gives five acceptance scenarios for the [spatial simulator](/simulator/spatial-simulator.md).[^ears-spec]
+The [EARS specification](../sources/ears-spec.md) gives five acceptance scenarios for the [spatial simulator](spatial-simulator.md).[^ears-spec]
 
 | Scenario | Given | When | Then | Pass |
 | --- | --- | --- | --- | --- |
@@ -24,7 +24,7 @@ The [EARS specification](/sources/ears-spec.md) gives five acceptance scenarios 
 | D. Unsupported AR | A browser without a supported spatial AR path | The visitor selects an AR feature | The simulator explains the limit and offers the 3D viewer | No non-spatial camera overlay is presented as true AR |
 | E. Enhanced interactive AR | A supported enhanced ARKit runtime | The visitor places the dome and changes its immersive content | Visible content updates without changing the world-space anchor | Content changes while placement stays stable |
 
-Scenario A uses the tabletop preset on the [AR page](/simulator/augmented-reality.md). Scenario C uses cutaway and an environment from [immersive content](/dome/immersive-content.md). The 30.48 cm figure is the specification's own wording for the 1:50 model; the preset table states 0.3048 m.
+Scenario A uses the tabletop preset on the [AR page](augmented-reality.md). Scenario C uses cutaway and an environment from [immersive content](../dome/immersive-content.md). The 30.48 cm figure is the specification's own wording for the 1:50 model; the preset table states 0.3048 m.
 
 # Phases
 
@@ -36,13 +36,13 @@ Scenario A uses the tabletop preset on the [AR page](/simulator/augmented-realit
 | 4. Enhanced AR | ARKit/App Clip interactive spatial experience | Live content changes while anchored |
 | 5. Digital twin | Refined geometry, seating, LED mapping | Approved venue design fidelity |
 
-Phase 5 is the specification's name for a later software fidelity milestone. It is not the [IX Art Park digital twin](/prototypes/ix-art-park-twin.md) already published, and it is not the [April 2027 pilot](/pilot/april-2027.md).
+Phase 5 is the specification's name for a later software fidelity milestone. It is not the [IX Art Park digital twin](../prototypes/ix-art-park-twin.md) already published, and it is not the [April 2027 pilot](../pilot/april-2027.md).
 
 # Explicit MVP exclusions
 
 The first release does not require real-time AI-generated imagery inside AR Quick Look; arbitrary JavaScript inside Apple's native Quick Look viewer; persistent anchors shared across devices or sessions; architectural or structural engineering certification; exact LED manufacturing specifications; multiplayer synchronization or collaborative remote AR; or live audience tracking. The specification says those need separate requirements, validated platform capabilities, or later architectural decisions.
 
-The community notes' idea of virtual watch parties, recorded on the [Dome Tools](/tools/dome-tools.md) page, sits outside this exclusion until someone writes a requirement for it. [Performance](/simulator/performance.md) device tests and the [privacy](/simulator/privacy-accessibility-safety.md) rules are inside the first release.
+The community notes' idea of virtual watch parties, recorded on the [Dome Tools](../tools/dome-tools.md) page, sits outside this exclusion until someone writes a requirement for it. [Performance](performance.md) device tests and the [privacy](privacy-accessibility-safety.md) rules are inside the first release.
 
 # Definition of done
 

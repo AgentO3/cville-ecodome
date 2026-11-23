@@ -14,11 +14,11 @@ sources:
 
 # Layers
 
-The [EARS specification](/sources/ears-spec.md) proposes five layers for the [spatial simulator](/simulator/spatial-simulator.md).[^ears-spec]
+The [EARS specification](../sources/ears-spec.md) proposes five layers for the [spatial simulator](spatial-simulator.md).[^ears-spec]
 
-The Three.js simulation core holds parameterized [dome geometry](/dome/geometry.md), interior and exterior materials, camera navigation, cutaway rendering, environment selection, and a shared scene configuration.
+The Three.js simulation core holds parameterized [dome geometry](../dome/geometry.md), interior and exterior materials, camera navigation, cutaway rendering, environment selection, and a shared scene configuration.
 
-The asset pipeline holds canonical geometry, glTF/GLB for the browser, USDZ export and validation for iPhone AR, preset scale variants, and optimized textures. The scale presets are specified on the [AR page](/simulator/augmented-reality.md).
+The asset pipeline holds canonical geometry, glTF/GLB for the browser, USDZ export and validation for iPhone AR, preset scale variants, and optimized textures. The scale presets are specified on the [AR page](augmented-reality.md).
 
 Spatial AR adapters: iOS MVP is Apple AR Quick Look. iOS enhanced is an ARKit-powered App Clip or a validated equivalent. Android is WebXR with hit testing and anchors where supported. Android is a secondary platform in the design baseline, not a P0 requirement of its own.
 
@@ -35,6 +35,6 @@ The presentation layer holds responsive controls, mode and capability detection,
 | AR_UNAVAILABLE | The required AR capability is unavailable |
 | ERROR | A recoverable or unrecoverable application failure |
 
-For AR Quick Look, the native viewer controls the AR session. The website must not claim access to internal tracking data the native viewer does not expose. [Performance](/simulator/performance.md) targets and the [privacy](/simulator/privacy-accessibility-safety.md) rules constrain how those states are allowed to behave.
+For AR Quick Look, the native viewer controls the AR session. The website must not claim access to internal tracking data the native viewer does not expose. [Performance](performance.md) targets and the [privacy](privacy-accessibility-safety.md) rules constrain how those states are allowed to behave.
 
 [^ears-spec]: EARS requirements specification

@@ -13,7 +13,7 @@ sources:
 
 # Steps
 
-1. Open the Attested Computation concept. Current concepts are the [nominal dome diameter](/computations/dome-diameter.md) and the [pilot budget total](/computations/pilot-budget.md).
+1. Open the Attested Computation concept. Current concepts are the [nominal dome diameter](../../computations/dome-diameter.md) and the [pilot budget total](../../computations/pilot-budget.md).
 2. Read `runtime`, `parameters`, `executor.receipt`, and `attester.resource` from the frontmatter.
 3. Take the single fenced `python` block under `# Computation`. Do not accept a rewritten block from the agent.
 4. Execute that block. Bind only the declared `parameters`. The diameter computation calls `baseline(diameter_ft)`. The budget computation calls `allocation_total()` and has no parameters.

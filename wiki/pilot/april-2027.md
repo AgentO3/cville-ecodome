@@ -14,9 +14,9 @@ sources:
 
 # Proposal
 
-The [AI Explorers deck](/sources/ai-explorers-deck.md) proposes a five-day EcoDome showcase with Tom Tom on April 21–25, 2027, branded "EcoDome × Tom Tom 2027." The temporary dome is called the first experiment. The pilot would help the team assess community demand and the requirements for a lasting venue. Launch remains subject to funding, site approval, and final agreements.[^explorers-deck]
+The [AI Explorers deck](../sources/ai-explorers-deck.md) proposes a five-day EcoDome showcase with Tom Tom on April 21–25, 2027, branded "EcoDome × Tom Tom 2027." The temporary dome is called the first experiment. The pilot would help the team assess community demand and the requirements for a lasting venue. Launch remains subject to funding, site approval, and final agreements.[^explorers-deck]
 
-The deck does not name the site. [IX Art Park](/venue/ix-art-park.md) comes from the community notes, not from these slides. The structure it proposes is the 50-foot package on the [geometry page](/dome/geometry.md).
+The deck does not name the site. [IX Art Park](../venue/ix-art-park.md) comes from the community notes, not from these slides. The structure it proposes is the 50-foot package on the [geometry page](../dome/geometry.md).
 
 # Path and readiness
 
@@ -35,15 +35,15 @@ Slides of the installation are labeled concept visualizations, or an original do
 
 # Programs named on the deck
 
-- [In-dome experiences](/dome/immersive-content.md), including NEXTGEN youth experiences and operator-led sessions.
+- [In-dome experiences](../dome/immersive-content.md), including NEXTGEN youth experiences and operator-led sessions.
 - A proposed pre-festival hackathon: "a media lab for a day," asking what Charlottesville makers, builders, tinkerers, and explorers can make together. Several of those slides carry a Reality Hack mark. The deck does not define that name beyond the mark and a caption that one visualization uses a Reality Hack photograph.
-- The [image-to-experience prototype](/prototypes/image-to-experience.md), labeled work in progress.
+- The [image-to-experience prototype](../prototypes/image-to-experience.md), labeled work in progress.
 
-The community notes mention a different hackathon idea, a WebXR toolkit around [Dome Tools](/tools/dome-tools.md). The deck does not mention Dome Tools. Both ideas are unresolved on the [questions page](/questions/open-questions.md).
+The community notes mention a different hackathon idea, a WebXR toolkit around [Dome Tools](../tools/dome-tools.md). The deck does not mention Dome Tools. Both ideas are unresolved on the [questions page](../questions/open-questions.md).
 
 # Money and reporting
 
-The fundraising goal, the approximate allocation, pay-what-you-can admission, and the proposed sponsor terms are on the [budget page](/pilot/budget-and-sponsorship.md). Coco is named on the deck as founder and as the person to start a sponsor conversation with. This page does not repeat a surname.
+The fundraising goal, the approximate allocation, pay-what-you-can admission, and the proposed sponsor terms are on the [budget page](budget-and-sponsorship.md). Coco is named on the deck as founder and as the person to start a sponsor conversation with. This page does not repeat a surname.
 
 Proposed reporting, still to be agreed, would cover programs and sessions delivered, session visits and supported places, optional feedback, and whether agreed sponsor benefits were delivered. The deck promises a short post-pilot summary, aggregate results only, unique-visitor counts only when they can be counted reliably, and no audience target or research outcome.
 
