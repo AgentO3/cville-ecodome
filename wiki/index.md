@@ -8,11 +8,15 @@ OKF v0.2 bundle for the EcoDome Charlottesville project. Read a section index be
 
 # Project
 
-* [EcoDome Charlottesville](project.md) - Proposed Charlottesville immersive dome, from the pilot deck, the community notes, and the simulator specification.
+* [EcoDome Charlottesville](project.md) - Proposed Charlottesville immersive dome, from the public site, the pilot deck, the community notes, and the simulator specification.
+
+# Organization
+
+* [Organization](organization/) - The Virginia entity names filed from the public business compilation.
 
 # Place
 
-* [Venue](venue/) - Place named in the notes, and what the pilot deck does not confirm.
+* [Venue](venue/) - Candidate places and the art park named in the notes. The pilot site is unconfirmed.
 
 # Dome
 

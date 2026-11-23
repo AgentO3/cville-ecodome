@@ -4,19 +4,27 @@ title: April 2027 pilot
 description: Proposed five-day EcoDome showcase with Tom Tom, April 21-25, 2027.
 status: draft
 tags: [ecodome, pilot, tomtom]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T13:10:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: official-site
+    resource: /sources/official-site.md
+    title: Official site
+  - id: interview
+    resource: /sources/canvasrebel-interview.md
+    title: CanvasRebel founder interview
 ---
 
 # Proposal
 
 The [AI Explorers deck](../sources/ai-explorers-deck.md) proposes a five-day EcoDome showcase with Tom Tom on April 21–25, 2027, branded "EcoDome × Tom Tom 2027." The temporary dome is called the first experiment. The pilot would help the team assess community demand and the requirements for a lasting venue. Launch remains subject to funding, site approval, and final agreements.[^explorers-deck]
 
-The deck does not name the site. [IX Art Park](../venue/ix-art-park.md) comes from the community notes, not from these slides. The structure it proposes is the 50-foot package on the [geometry page](../dome/geometry.md).
+The deck does not name the site. [IX Art Park](../venue/ix-art-park.md) comes from the community notes, not from these slides. The structure it proposes is the 50-foot package on the [geometry page](../dome/geometry.md). [Site options](../venue/site-options.md) compares every place claim now on file.
+
+The [official site](../sources/official-site.md), read on 2026-11-23, does not mention April 2027, Tom Tom, or this five-day showcase. It describes a venue still "coming" to Charlottesville.[^official-site] The April 10, 2025 interview, which predates the deck, describes talks with location partners and an aim of a downtown location. It does not mention Tom Tom. The later deck still says the site must be confirmed, so the interview does not settle the pilot's site.[^interview]
 
 # Path and readiness
 
@@ -48,3 +56,5 @@ The fundraising goal, the approximate allocation, pay-what-you-can admission, an
 Proposed reporting, still to be agreed, would cover programs and sessions delivered, session visits and supported places, optional feedback, and whether agreed sponsor benefits were delivered. The deck promises a short post-pilot summary, aggregate results only, unique-visitor counts only when they can be counted reliably, and no audience target or research outcome.
 
 [^explorers-deck]: AI Explorers presentation
+[^official-site]: Official site
+[^interview]: CanvasRebel founder interview

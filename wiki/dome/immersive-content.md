@@ -1,10 +1,10 @@
 ---
 type: Experience
 title: Immersive content
-description: Simulator environments and the pilot deck's proposed in-dome experiences.
+description: Simulator environments, the pilot deck's experiences, and the program pillars on the public site.
 status: draft
 tags: [ecodome, dome, content]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T13:10:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
 stale_after: "2027-03-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -13,6 +13,15 @@ sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: official-site
+    resource: /sources/official-site.md
+    title: Official site
+  - id: interview
+    resource: /sources/canvasrebel-interview.md
+    title: CanvasRebel founder interview
+  - id: alignable
+    resource: /sources/alignable-listing.md
+    title: Alignable listing
 ---
 
 # Pilot experiences
@@ -22,6 +31,16 @@ The [AI Explorers deck](../sources/ai-explorers-deck.md) proposes an interior wh
 NEXTGEN is the deck's name for EcoDome youth experiences. A separate slide proposes a pre-festival hackathon, "a media lab for a day," for Charlottesville makers, builders, tinkerers, and explorers. That proposal is part of the [April 2027 pilot](../pilot/april-2027.md), not a committed program. The deck says five programming concepts have been submitted and does not name the five.
 
 The deck's readiness list and the [image-to-experience prototype](../prototypes/image-to-experience.md) are the concrete content work it shows. [Dome Tools](../tools/dome-tools.md) is a separate tool mentioned only in the community notes.
+
+# Public site and listings
+
+The [official site](../sources/official-site.md) names six program areas for the venue, without dates or a production schedule: immersive experiences and entertainment (performances and screenings); creative workshops in digital arts, sustainability, and design; education and youth programming; community and cultural events, including wellness, markets, and celebrations; an indoor-outdoor activation space; and a future-ready innovation hub aimed at emerging technology. The vision text adds digital literacy and sustainable living.[^official-site]
+
+The April 2025 interview describes the interior as immersive media, concerts, storytelling, and educational programming, and says the project is meant to widen access to digital literacy tools and creative technology.[^interview]
+
+The [Alignable listing](../sources/alignable-listing.md) is a catalog, not a calendar. Its about text names virtual reality expeditions, cosmic disco dances, and mindfulness meditation soundbaths. The 23 labels include 360 film screenings, concerts, venue rentals, interactive art, workshops, XR/AR/VR training, youth programs, and corporate sessions. The page truncates several blurbs and gives no prices.[^alignable]
+
+NEXTGEN on the deck and "education and youth programming" on the site are related phrases from different sources. Neither source says they are the same program. The [questions page](../questions/open-questions.md) keeps that open.
 
 # Simulator environments
 
@@ -41,3 +60,6 @@ How a visitor moves through these views is on the [interaction page](../simulato
 
 [^explorers-deck]: AI Explorers presentation
 [^ears-spec]: EARS requirements specification
+[^official-site]: Official site
+[^interview]: CanvasRebel founder interview
+[^alignable]: Alignable listing

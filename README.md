@@ -24,10 +24,17 @@ scripts/validate_okf.py
 | Spatial Simulator EARS specification, v1.0 | `raw/ecodome-spatial-simulator-ears-v1.0.txt` |
 | Community notes, November 2026 | `raw/ecodome-charlottesville-context-2026-11.md` |
 | AI Explorers slide deck (24 pages) | `raw/ecodome-ai-explorers-presentation.pdf` |
+| Official site, accessed 2026-11-23 | `raw/ecodome-official-site-2026-11-23.md` |
+| CanvasRebel founder interview, April 10, 2025 | `raw/canvasrebel-founder-interview-2025-04-10.md` |
+| Alignable listing, accessed 2026-11-23 | `raw/alignable-ecodome-cville-2026-11-23.md` |
+| Virginia compilation, Ecodome Cville, LLC | `raw/opencorpdata-ecodome-cville-llc-2026-11-23.md` |
+| Virginia compilation, Ecodome Foundation | `raw/opencorpdata-ecodome-foundation-2026-11-23.md` |
+| IX Art Park website, accessed 2026-11-23 | `raw/ix-art-park-website-2026-11-23.md` |
+| C-VILLE Weekly note on the IX Nest exhibit, 2016 | `raw/cville-weekly-ix-nest-2016.md` |
 
 The deck is also published as [Google Slides](https://docs.google.com/presentation/d/1_2WxQJjcp8bBibTe3YFr8n5Iuy0UZx7G6TorSFdZV4M). The PDF is in `raw/` so the wiki still has the deck if that link changes. It is about 7.2 MB, under GitHub's file limit. Most of the type is in the images; the wiki was written by reading the rendered slides.
 
-Concept links that start with `/` are OKF paths from `wiki/`, such as `/pilot/april-2027.md`. They are for agents walking the bundle. On GitHub's website those links are not repository links. The indexes use ordinary relative links and do work on GitHub.
+Concept links in page bodies are file-relative and include `.md`, so GitHub can open them. Frontmatter `sources.resource` stays bundle-absolute, such as `/sources/ears-spec.md`, because that field is for agents rather than GitHub's renderer. The indexes use ordinary relative links.
 
 ## How to contribute
 

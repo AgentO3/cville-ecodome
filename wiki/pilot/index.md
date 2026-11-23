@@ -6,4 +6,4 @@
 
 # Funding
 
-* [Pilot budget and sponsorship](budget-and-sponsorship.md) - Proposed $175,000 fundraising goal, allocation, access model, and sponsor terms.
+* [Pilot budget and sponsorship](budget-and-sponsorship.md) - Proposed $175,000 pilot goal, set beside public asks to donate and join as a member.

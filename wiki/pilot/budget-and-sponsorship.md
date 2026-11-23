@@ -1,15 +1,24 @@
 ---
 type: Budget
 title: Pilot budget and sponsorship
-description: Proposed $175,000 fundraising goal, allocation, access model, and sponsor terms.
+description: Proposed $175,000 pilot goal, set beside public asks to donate and join as a member.
 status: draft
 tags: [ecodome, pilot, budget, sponsorship]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T13:10:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: official-site
+    resource: /sources/official-site.md
+    title: Official site
+  - id: interview
+    resource: /sources/canvasrebel-interview.md
+    title: CanvasRebel founder interview
+  - id: alignable
+    resource: /sources/alignable-listing.md
+    title: Alignable listing
 ---
 
 # Goal
@@ -50,4 +59,17 @@ The deck invites a sponsor conversation with the EcoDome team and, on the path s
 
 The showcase these figures belong to is the [April 2027 pilot](april-2027.md).
 
+# Other public asks
+
+The $175,000 allocation is the deck's proposal. Other public pages use different words and do not cite that total.
+
+- The [official site](../sources/official-site.md) invites founding members and donations. It does not mention April 2027 or $175,000.[^official-site]
+- The April 10, 2025 interview describes a community membership campaign, and describes it as backed by the City of Charlottesville. No amount is stated.[^interview]
+- The [Alignable listing](../sources/alignable-listing.md) lists founding circle memberships, investment and membership opportunities, and corporate sponsorships. No amounts are stated.[^alignable]
+
+The insurance-and-permits line above is a planning number. No source records a permit application or a paid fee. The [values page](../community/values.md) is where the community's independence preference is kept next to these asks.
+
 [^explorers-deck]: AI Explorers presentation
+[^official-site]: Official site
+[^interview]: CanvasRebel founder interview
+[^alignable]: Alignable listing
