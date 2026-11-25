@@ -4,7 +4,7 @@ title: Pilot budget and sponsorship
 description: Proposed $175,000 pilot goal, set beside public asks to donate and join as a member.
 status: draft
 tags: [ecodome, pilot, budget, sponsorship]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T16:10:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -28,6 +28,9 @@ sources:
   - id: pacific-brochure
     resource: /sources/pacific-domes-50ft-brochure.md
     title: Pacific Domes 50 ft brochure
+  - id: holiday-message
+    resource: /sources/owen-holiday-message.md
+    title: Holiday message, November 25
 ---
 
 # Goal
@@ -53,6 +56,8 @@ What the goal is described as buying: a dome to gather in; art, technology, and 
 Proposed admission is free and pay-what-you-can. A sponsorship focus area, "community access," is described as helping make admission affordable. The deck does not set ticket prices or a revenue target.
 
 On November 24, Cocolata8 described a combination approach in Discord #general: ideally sponsors cover the full pilot cost, including build, tech, and people, so admission can stay pay-what-you-can; a mix of local sponsors and national tech sponsors would support the hackathon; BeCamp was named as a possible conversation; and an aligned lead sponsor naming the dome for the event was left open. None of that is a signed sponsorship. The paraphrase is the [Discord note](../sources/discord-general-2026-11-23-24.md).[^discord-general]
+
+On November 25, Owen's [holiday note](../sources/owen-holiday-message.md) asks people to introduce possible sponsors and says the project is looking for local and national sponsors to cover the build, the tech, and the people so admission can be pay-what-you-can. That repeats the November 24 aim as a public ask. It does not adopt the deck's $175,000 figure, and it is not a signed sponsorship. The asks are on [holiday outreach](../community/holiday-outreach.md).[^holiday-message]
 
 # Sponsorship
 
@@ -93,3 +98,4 @@ The [Pacific Domes 50-foot brochure](../sources/pacific-domes-50ft-brochure.md) 
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
 [^pacific-brochure]: Pacific Domes 50 ft brochure
+[^holiday-message]: Holiday message, November 25

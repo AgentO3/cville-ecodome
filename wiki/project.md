@@ -4,7 +4,7 @@ title: EcoDome Charlottesville
 description: Proposed Charlottesville immersive dome, from the public site, the pilot deck, the notes, the simulator specification, and a 2026 feasibility study.
 status: draft
 tags: [ecodome, charlottesville]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T16:10:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -28,6 +28,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: holiday-message
+    resource: /sources/owen-holiday-message.md
+    title: Holiday message, November 25
 ---
 
 # Summary
@@ -41,6 +44,8 @@ The [community notes](sources/community-context.md) describe the same effort as 
 A Virginia compilation lists [Ecodome Cville, LLC](organization/ecodome-cville-llc.md) as an active entity with an incorporate date of February 21, 2025. A separate [spatial simulator](simulator/spatial-simulator.md) is specified so people can explore, place, and preview a digital model before the architecture is final.[^ears-spec]
 
 A [feasibility study](sources/feasibility-research.md) provided by the project team on 2026-11-23 sketches a different operating idea: mobile dome rentals plus a seasonal ticketed run. It is a draft. It does not replace the pilot or the public site. The sketch is the [hybrid model](business/hybrid-model.md).[^feasibility]
+
+On November 25, Owen wrote that EcoDome is jamming in Charlottesville and now nationally. The public site, the deck, and the notes describe a Charlottesville project. The holiday note does not say what the national reach is: no tour, chapter, or partner is named. The note is [holiday outreach](community/holiday-outreach.md).[^holiday-message]
 
 # Lines the project uses
 
@@ -68,3 +73,4 @@ The pilot's proposed money and sponsor terms are on the [budget page](pilot/budg
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
+[^holiday-message]: Holiday message, November 25

@@ -4,7 +4,7 @@ title: April 2027 pilot
 description: Proposed five-day EcoDome showcase with Tom Tom, April 21-25, 2027.
 status: draft
 tags: [ecodome, pilot, tomtom]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T16:10:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -16,6 +16,9 @@ sources:
   - id: interview
     resource: /sources/canvasrebel-interview.md
     title: CanvasRebel founder interview
+  - id: holiday-message
+    resource: /sources/owen-holiday-message.md
+    title: Holiday message, November 25
 ---
 
 # Proposal
@@ -49,6 +52,8 @@ Slides of the installation are labeled concept visualizations, or an original do
 
 The community notes mention a different hackathon idea, a WebXR toolkit around [Dome Tools](../tools/dome-tools.md). The deck does not mention Dome Tools. Both ideas are unresolved on the [questions page](../questions/open-questions.md).
 
+On November 25, Owen's [holiday note](../sources/owen-holiday-message.md) says the team is working toward a 50-foot pop-up dome in Charlottesville for Tom Tom 2027, with Hackadome leading into the festival. "Pop-up" matches the deck's temporary first experiment. Hackadome is a new name. The note does not say whether it is the deck's pre-festival hackathon, the Reality Hack mark on those slides, or the Dome Tools idea, and it does not give dates or a format.[^holiday-message]
+
 # Money and reporting
 
 The fundraising goal, the approximate allocation, pay-what-you-can admission, and the proposed sponsor terms are on the [budget page](budget-and-sponsorship.md). Coco is named on the deck as founder and as the person to start a sponsor conversation with. This page does not repeat a surname.
@@ -58,3 +63,4 @@ Proposed reporting, still to be agreed, would cover programs and sessions delive
 [^explorers-deck]: AI Explorers presentation
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
+[^holiday-message]: Holiday message, November 25

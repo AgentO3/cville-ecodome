@@ -4,7 +4,7 @@ title: Immersive content
 description: Simulator environments, the pilot deck's experiences, and the program pillars on the public site.
 status: draft
 tags: [ecodome, dome, content]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T16:10:00Z" }
 stale_after: "2027-03-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -22,13 +22,16 @@ sources:
   - id: alignable
     resource: /sources/alignable-listing.md
     title: Alignable listing
+  - id: holiday-message
+    resource: /sources/owen-holiday-message.md
+    title: Holiday message, November 25
 ---
 
 # Pilot experiences
 
 The [AI Explorers deck](../sources/ai-explorers-deck.md) proposes an interior where people explore at their own pace and also create something together. One slide, "Elements, humans, and shared creation," labels water, earth, air, fire, and space. Visitors might discover Fellowship stories, paint with movement, or listen, observe, or rest. At announced times, local interactions pause for an operator-led immersive experience. The slide says the layout and technical delivery are subject to testing, and it credits creative direction to Tina.[^explorers-deck]
 
-NEXTGEN is the deck's name for EcoDome youth experiences. A separate slide proposes a pre-festival hackathon, "a media lab for a day," for Charlottesville makers, builders, tinkerers, and explorers. That proposal is part of the [April 2027 pilot](../pilot/april-2027.md), not a committed program. The deck says five programming concepts have been submitted and does not name the five.
+NEXTGEN is the deck's name for EcoDome youth experiences. A separate slide proposes a pre-festival hackathon, "a media lab for a day," for Charlottesville makers, builders, tinkerers, and explorers. That proposal is part of the [April 2027 pilot](../pilot/april-2027.md), not a committed program. The deck says five programming concepts have been submitted and does not name the five. Owen's November 25 note names Hackadome as leading into Tom Tom 2027 and does not say it is this hackathon.[^holiday-message]
 
 The deck's readiness list and the [image-to-experience prototype](../prototypes/image-to-experience.md) are the concrete content work it shows. [Dome Tools](../tools/dome-tools.md) is a separate tool mentioned only in the community notes.
 
@@ -63,3 +66,4 @@ How a visitor moves through these views is on the [interaction page](../simulato
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
+[^holiday-message]: Holiday message, November 25
