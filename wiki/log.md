@@ -2,6 +2,7 @@
 
 ## 2026-11-25
 
+* **Ingest**: Filed a paraphrase of Coco's November 25 tracker update to Owen. Recorded a received Tom Tom letter of support, an IX meeting that is not a booking, Hackadome planning with dates still open, unbooked Pacific Domes and James options, and $175,000 as a working budget figure.
 * **Ingest**: Filed a text extraction of the Pacific Domes 50 ft Event Dome brochure, retrieved 2026-11-25. The PDF was about 18 MB and was not stored. Recorded the brochure's dimensions, seating, projection covers, and assembly list beside the existing figures. The footer email and phone were left out. The brochure prints no price.
 * **Ingest**: Filed a paraphrase of Owen's Discord #general screenshots from November 23-24. Recorded the stated projection-then-LED plan, permit and sponsor blockers, the Tom Tom partner-program basics, and left the economics of an inference data center as an open question.
 

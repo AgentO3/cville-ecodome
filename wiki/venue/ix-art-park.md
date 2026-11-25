@@ -4,7 +4,7 @@ title: IX Art Park
 description: Charlottesville art park named in the notes; its own site does not mention EcoDome, and the pilot site is unconfirmed.
 status: draft
 tags: [ecodome, venue, charlottesville]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T22:00:00Z" }
 stale_after: "2027-03-01T00:00:00Z"
 sources:
   - id: community-context
@@ -19,6 +19,9 @@ sources:
   - id: nest-2016
     resource: /sources/ix-nest-2016.md
     title: IX Nest exhibit, 2016
+  - id: coco-tracker
+    resource: /sources/coco-tracker-update.md
+    title: Coco tracker update, November 25
 ---
 
 # What the project sources say
@@ -28,6 +31,8 @@ The November 2026 [community notes](../sources/community-context.md) associate E
 The [AI Explorers deck](../sources/ai-explorers-deck.md) does not name IX Art Park. Its path to April starts with "confirm site and delivery responsibilities," and "site access and approvals" is one of the items that unlock the pilot. The structure slide says the venue and festival dates are proposed, and that site and technical configuration are to be confirmed.[^explorers-deck]
 
 Concept renderings in the deck show an outdoor installation. They are labeled as concept visualizations, or as a photograph of a dome with simulated projection. This wiki does not treat those pictures as proof of a chosen site.
+
+On 2026-11-25 Coco said the team is meeting with the park about location, permitting, and whether the site can be used for all of April 2027, including setup, testing, and breakdown. That is a meeting in progress. It is not a booking, and the park's own pages still do not mention EcoDome. The paraphrase is the [tracker update](../sources/coco-tracker-update.md).[^coco-tracker]
 
 # What the park's own site says
 
@@ -47,3 +52,4 @@ A [C-VILLE Weekly article](../sources/ix-nest-2016.md) dated August 24, 2016 des
 [^explorers-deck]: AI Explorers presentation
 [^ix-website]: IX Art Park website
 [^nest-2016]: IX Nest exhibit, 2016
+[^coco-tracker]: Coco tracker update, November 25
