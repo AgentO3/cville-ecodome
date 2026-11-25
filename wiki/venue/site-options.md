@@ -28,11 +28,14 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: discord-general
+    resource: /sources/discord-general-2026-11-23-24.md
+    title: "Discord #general, November 23-24"
 ---
 
 # No site is confirmed
 
-None of the filed sources names a street address for EcoDome, a signed host, or an issued permit. The [April 2027 pilot](../pilot/april-2027.md) still lists site access and approvals among the items that unlock the event. The [budget](../pilot/budget-and-sponsorship.md) sets aside about $2,000 for insurance and permits as a proposal, not as a fee already paid.[^explorers-deck]
+None of the filed sources names a street address for EcoDome, a signed host, or an issued permit. On November 23, Cocolata8 told Discord #general that location permits for a temporary structure still need to be confirmed, that the Tom Tom team likely knows that part, and that specifics are being discussed with IX. That is a status report in the channel, not a permit. The paraphrase is the [Discord note](../sources/discord-general-2026-11-23-24.md).[^discord-general] The [April 2027 pilot](../pilot/april-2027.md) still lists site access and approvals among the items that unlock the event. The [budget](../pilot/budget-and-sponsorship.md) sets aside about $2,000 for insurance and permits as a proposal, not as a fee already paid.[^explorers-deck]
 
 | Source | What it says about place | What it does not say |
 | --- | --- | --- |
@@ -61,3 +64,4 @@ The [geometry page](../dome/geometry.md) is where the 50-foot proposals are comp
 [^ix-website]: IX Art Park website
 [^nest-2016]: IX Nest exhibit, 2016
 [^feasibility]: Feasibility research, November 2026
+[^discord-general]: Discord #general, November 23-24

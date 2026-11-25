@@ -13,3 +13,4 @@
 * [IX Art Park website](ix-art-park-website.md) - Paraphrase of the IX Art Park home and rentals pages, accessed November 23, 2026.
 * [IX Nest exhibit, 2016](ix-nest-2016.md) - 2016 C-VILLE Weekly description of a geodesic dome under the Nest exhibit at IX Art Park.
 * [Feasibility research, November 2026](feasibility-research.md) - Draft feasibility study of a 50-foot multimedia geodome business, provided by the project team on 2026-11-23.
+* [Discord #general, November 23-24](discord-general-2026-11-23-24.md) - Paraphrase of EcoDome Discord #general screenshots from November 23-24, 2026, provided by Owen.
