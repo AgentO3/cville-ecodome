@@ -13,6 +13,9 @@ sources:
   - id: explorers-deck
     resource: /sources/ai-explorers-deck.md
     title: AI Explorers presentation
+  - id: discord-general
+    resource: /sources/discord-general-2026-11-23-24.md
+    title: "Discord #general, November 23-24"
 ---
 
 # Cadence in the notes
@@ -25,7 +28,10 @@ The same notes say Coco and Tina presented the dome at the Cville AI Explorers m
 
 The [April 2027 pilot](../pilot/april-2027.md) is a proposed public showcase, not one of these community meetings. The [values page](values.md) is where the funding preference from the same notes is kept. Items the notes leave open are on the [questions page](../questions/open-questions.md).
 
-The video jam's date is 2026-11-23. No source filed after the notes reports whether that meeting happened. The [questions page](../questions/open-questions.md) records the gap.
+The video jam's date is 2026-11-23. No source filed after the notes reports whether that jam happened. The [questions page](../questions/open-questions.md) records the gap.
+
+A different gathering is in the Discord screenshots: a community meeting the evening of November 23 at 6:30 PM, which Cocolata8 asked to record. No recording is filed. The paraphrase, the cohort whiteboard, and the Reality Hack proposal are on the [November 23-24 Discord notes](discord-nov-23-24.md).[^discord-general]
 
 [^community-context]: Community context notes
 [^explorers-deck]: AI Explorers presentation
+[^discord-general]: Discord #general, November 23-24

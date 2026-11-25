@@ -22,6 +22,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: discord-general
+    resource: /sources/discord-general-2026-11-23-24.md
+    title: "Discord #general, November 23-24"
 ---
 
 # Goal
@@ -45,6 +48,8 @@ What the goal is described as buying: a dome to gather in; art, technology, and 
 # Admission
 
 Proposed admission is free and pay-what-you-can. A sponsorship focus area, "community access," is described as helping make admission affordable. The deck does not set ticket prices or a revenue target.
+
+On November 24, Cocolata8 described a combination approach in Discord #general: ideally sponsors cover the full pilot cost, including build, tech, and people, so admission can stay pay-what-you-can; a mix of local sponsors and national tech sponsors would support the hackathon; BeCamp was named as a possible conversation; and an aligned lead sponsor naming the dome for the event was left open. None of that is a signed sponsorship. The paraphrase is the [Discord note](../sources/discord-general-2026-11-23-24.md).[^discord-general]
 
 # Sponsorship
 
@@ -81,3 +86,4 @@ The [November 2026 feasibility study](../sources/feasibility-research.md) does n
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
+[^discord-general]: Discord #general, November 23-24

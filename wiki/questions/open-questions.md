@@ -40,6 +40,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: discord-general
+    resource: /sources/discord-general-2026-11-23-24.md
+    title: "Discord #general, November 23-24"
 ---
 
 # Site and structure
@@ -77,11 +80,16 @@ sources:
 - Kahlil recently bought dome-related equipment. The kind of equipment is not recorded.
 - The notes ask whether similar domes near Charlottesville can be toured. No tour is filed. The Nest geodesic dome, if it remains, is a park exhibit, not a 50-foot venue. Pacific Domes appears as a proposed package, not as a local room to visit. The feasibility study says it found no central Virginia company renting large geodesic event domes. See [competition](../competition/central-virginia.md).[^feasibility]
 - A frame and cover are described as available to purchase, without a liner or AV. Asking price, manufacturer, year, cover type, and flame certificate are not in the study.
-- The study's display path is multi-projector 360-degree projection. The official site says LED panel. Neither is chosen.
+- The study's display path is multi-projector 360-degree projection. The official site says LED panel. On November 23, Discord #general recorded a stated plan, unverified and not a signed decision: projection for a proof of concept and LED for a final build. How well projection works on a sunny day is still open. See [projection and AV](../dome/projection-and-av.md).[^feasibility][^discord-general]
 - Whether a seasonal ticketed run plus mobile rentals will be pursued, and in which county, is not decided. The 180-day temporary-structure line and the Albemarle special-use path are described on the [permits page](../regulations/virginia-permits.md) and are not a filed application.
 - Starting capital in the study is an estimate of $250,000 to $400,000. The deck's pilot goal is $175,000. Insurance is estimated at $12,000 to $25,000 a year in the study and about $2,000 for insurance and permits on the deck.
 - Storage, a truck and trailer, anchor clients, and whether the team has projection experience are asked in the study and not answered.
 - Fred is named in the April 2025 interview as lead designer and builder. No later source confirms that role or names an employer.[^interview]
+- Location permits for a temporary structure are still unconfirmed. Cocolata8 said the Tom Tom team likely knows that part and that specifics are being discussed with IX. No permit is filed.[^discord-general]
+- Whether sponsors will cover the full pilot so admission can stay pay-what-you-can, and whether an aligned lead sponsor would name the dome for the event, is unanswered. BeCamp was named only as a possible conversation.[^discord-general]
+- No project tracking system was identified when Owen asked on November 24.
+- A renewable-powered LLM inference use of the dome was floated. The economics are unproven and need numbers. A calculator was shared; it is not a budget.[^discord-general]
+- A dome explorers cohort, stacked local meetup chapters, and a Reality Hack application were proposed. None is confirmed. EcoDome has not been recorded as a Tom Tom community partner. A LinkedIn post's November 28 Round 2 close was not confirmed on the program page.[^discord-general]
 
 [^ears-spec]: EARS requirements specification
 [^community-context]: Community context notes
@@ -94,3 +102,4 @@ sources:
 [^nest-2016]: IX Nest exhibit, 2016
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
+[^discord-general]: Discord #general, November 23-24

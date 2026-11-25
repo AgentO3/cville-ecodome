@@ -7,3 +7,5 @@
 # Cadence
 
 * [Community plans](plans.md) - Discussion cadence from the November 2026 notes, including the meetup where the deck was presented.
+* [Discord notes, November 23-24](discord-nov-23-24.md) - Paraphrased #general discussion of display, permits, sponsors, a cohort, and a meeting on November 23.
+* [Contribution and catalog](contribution.md) - How Owen described adding to the wiki, including GitHub access and recording meetings.

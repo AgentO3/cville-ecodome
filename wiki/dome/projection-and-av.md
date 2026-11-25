@@ -10,6 +10,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: discord-general
+    resource: /sources/discord-general-2026-11-23-24.md
+    title: "Discord #general, November 23-24"
 ---
 
 # Why the study wants a liner
@@ -17,6 +20,10 @@ sources:
 The [feasibility research](../sources/feasibility-research.md) says a picture projected on a geodesic cover shows the frame and fabric wrinkles. It describes a negative-pressure liner: a fan pulls air from the gap between the outer cover and an inner screen so the screen is drawn smooth. It cites SoFlo Studio, Fulldome.pro, DomeGuys, and Pacific Domes for that practice. The exact design is not specified for EcoDome.[^feasibility]
 
 This is a projection system. The [official site](../sources/official-site.md) says LED panel, and the [geometry page](geometry.md) keeps both wordings. This page does not choose one.
+
+# Stated plan from Discord, November 23
+
+In Discord #general, Owen suggested projection as a starting point and OLED or LED panels as the ideal end state, and he left open how well projection works in sun. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That is the team's stated plan in the [screenshot paraphrase](../sources/discord-general-2026-11-23-24.md). It is unverified and not a signed decision. The official site's LED wording and this page's projector estimates stay beside it.[^discord-general]
 
 # Projector count
 
@@ -46,3 +53,4 @@ Other planning figures in the same section, also estimates unless a publisher is
 Content is described as a recurring cost. One example: Loch Ness Productions prices a one-year license for one show at $2,000 for venues under 5,000 annual attendance and $4,000 under 10,000. Public ticketed music usually needs a performance license. How these costs sit in a year of events is the [profit model](../business/financial-model.md).
 
 [^feasibility]: Feasibility research, November 2026
+[^discord-general]: Discord #general, November 23-24

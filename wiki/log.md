@@ -1,5 +1,9 @@
 # Directory Update Log
 
+## 2026-11-25
+
+* **Ingest**: Filed a paraphrase of Owen's Discord #general screenshots from November 23-24. Recorded the stated projection-then-LED plan, permit and sponsor blockers, the Tom Tom partner-program basics, and left the economics of an inference data center as an open question.
+
 ## 2026-11-23
 
 * **Ingest**: Filed the November 23, 2026 feasibility study as research provided by the project team. The preparer's name and references to a private buyer were generalized in the raw file. Added hardware, projection, logistics, permit, insurance, competition, pricing, and profit-model pages, and left their disagreements with the pilot budget and the LED-panel wording on the record.

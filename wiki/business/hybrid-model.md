@@ -10,6 +10,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: discord-general
+    resource: /sources/discord-general-2026-11-23-24.md
+    title: "Discord #general, November 23-24"
 ---
 
 # What the study proposes
@@ -28,6 +31,9 @@ It also says it found no local operator of large geodesic event or projection do
 
 The study lists steps before buying the available dome: identify manufacturer, model, year, engineering and wind report, and flame certificate; meet the home-base building official and fire marshal; get a projection quote before committing; get insurance quotes from a broker who writes tent and event-rental programs; and test demand with letters of intent from a few anchor clients. Those items are also on [open questions](../questions/open-questions.md).
 
+On November 23, Owen told Discord #general that if the projection dome is portable, wedding and corporate rentals could help fund it. That matches the rental half of this sketch. It is an idea in the channel, not a booking plan. The paraphrase is the [Discord note](../sources/discord-general-2026-11-23-24.md).[^discord-general]
+
 The [illustrative profit model](financial-model.md) says profit is plausible and highly sensitive to bookings. Suggested prices are on the [pricing page](pricing.md). Crew and install time are on [logistics](../operations/logistics-and-crew.md).
 
 [^feasibility]: Feasibility research, November 2026
+[^discord-general]: Discord #general, November 23-24
