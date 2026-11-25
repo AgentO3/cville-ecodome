@@ -4,7 +4,7 @@ title: Pilot budget and sponsorship
 description: Proposed $175,000 pilot goal, set beside public asks to donate and join as a member.
 status: draft
 tags: [ecodome, pilot, budget, sponsorship]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -25,6 +25,9 @@ sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: pacific-brochure
+    resource: /sources/pacific-domes-50ft-brochure.md
+    title: Pacific Domes 50 ft brochure
 ---
 
 # Goal
@@ -81,9 +84,12 @@ The insurance-and-permits line above is a planning number. No source records a p
 
 The [November 2026 feasibility study](../sources/feasibility-research.md) does not use $175,000. Its planning estimates, which it says are not quotes, put a multimedia layer at about $115,000 on an entry tier and about $275,000 or more on a professional tier, and starting capital for a professional launch at $250,000 to $400,000. A first-year insurance package is estimated at $12,000 to $25,000, against about $2,000 for insurance and permits together on the deck. The study is about buying and operating a projection dome. The deck is about a five-day pilot. Both stay on the record. The estimates are unpacked on the [financial model](../business/financial-model.md) and the [projection page](../dome/projection-and-av.md).[^feasibility]
 
+The [Pacific Domes 50-foot brochure](../sources/pacific-domes-50ft-brochure.md) retrieved 2026-11-25 does not print a price. It does not change the $175,000 goal or the study's August 2024 list prices. Those list prices remain a different document, quoted on [dome hardware](../dome/hardware.md).[^pacific-brochure]
+
 [^explorers-deck]: AI Explorers presentation
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
+[^pacific-brochure]: Pacific Domes 50 ft brochure

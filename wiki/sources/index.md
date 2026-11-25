@@ -15,3 +15,4 @@
 * [Feasibility research, November 2026](feasibility-research.md) - Draft feasibility study of a 50-foot multimedia geodome business, provided by the project team on 2026-11-23.
 * [Discord #general, November 23-24](discord-general-2026-11-23-24.md) - Paraphrase of EcoDome Discord #general screenshots from November 23-24, 2026, provided by Owen.
 * [Spatial-simulator prototype links](simulator-prototype-links.md) - Claude, Muse, and Grok Bot explore links for spatial-simulator prototypes, recorded November 23, 2026.
+* [Pacific Domes 50 ft brochure](pacific-domes-50ft-brochure.md) - Pacific Domes 50-foot event-dome brochure retrieved 2026-11-25, with dimensions, capacity, covers, and assembly, and no printed price.

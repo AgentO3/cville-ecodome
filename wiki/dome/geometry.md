@@ -4,7 +4,7 @@ title: Dome geometry
 description: Nominal 50-foot size, with the deck's projection package and the public site's LED-panel wording both on the record.
 status: draft
 tags: [ecodome, dome, geometry]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
 stale_after: "2027-03-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -25,6 +25,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: pacific-brochure
+    resource: /sources/pacific-domes-50ft-brochure.md
+    title: Pacific Domes 50 ft brochure
 ---
 
 # Nominal size
@@ -61,6 +64,22 @@ A [feasibility study](../sources/feasibility-research.md) provided by the projec
 
 No source says the Pacific Domes package has been purchased, or that an LED-panel system has been specified. [Site options](../venue/site-options.md) records the matching gap for where a structure would stand. The disagreement stays on the [questions page](../questions/open-questions.md).
 
+# Pacific Domes brochure, retrieved 2026-11-25
+
+The [50-foot event-dome brochure](../sources/pacific-domes-50ft-brochure.md) prints the manufacturer's own figures. It is a product sheet, not an order.[^pacific-brochure]
+
+| Property | Brochure | Already on this page |
+| --- | --- | --- |
+| Diameter | 50 ft, also labeled 15 m | 50 ft / 15.24 m in the EARS baseline |
+| Ceiling height | 24.5 ft, also labeled 7.5 m | 7.62 m under the hemisphere assumption; the study says about 25 ft |
+| Floor area | 1,962.5 sq ft (182.3 sq m) | Study range about 1,905 to 1,962 sq ft |
+| Standing | 300 | Deck 250; official site and interview 250; study quotes other operators at about 260 to 300 |
+| Row seating | 200 | Deck seated proposal 175; study quotes about 150 to 200 seated |
+| Buffet / round tables | 170 / 150 | Not in the earlier sources |
+| Doors in the standard package | Two round hoop doors | Deck diagram: hoop exit, tunnel entrance, and hoop exit |
+
+The study already says a projection layout holds fewer people than a brochure, and that the fire official sets the load. These seating lines are that brochure. They are not a permit load. Hardware details from the same sheet are on [dome hardware](hardware.md).
+
 # Proposed pilot structure
 
 The deck's structure diagram is captioned as a Pacific Domes suspended complete projection package for the 50-foot dome. The diagram labels three openings: a vertical hoop exit 48 inches from the dome at the top of the hoop, a tunnel entrance with a zipper door, and a hoop exit. The photograph on that slide is credited to Pacific Domes.[^explorers-deck]
@@ -88,3 +107,4 @@ The Pacific Domes openings are not yet written into those requirements. The [spa
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
 [^feasibility]: Feasibility research, November 2026
+[^pacific-brochure]: Pacific Domes 50 ft brochure
