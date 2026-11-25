@@ -4,13 +4,16 @@ title: Community context notes
 description: Summary of project facts gathered from the community in November 2026.
 status: draft
 tags: [ecodome, source, community]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T13:10:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T21:40:00Z" }
 sources:
   - id: context-file
     resource: ../../raw/ecodome-charlottesville-context-2026-11.md
     title: EcoDome Charlottesville context notes, November 2026
     author: human:owen
     sha256: bd69c75ba428daef91a9a72cdb2ca93614095f52243972e07a7ad23df4390576
+  - id: prototype-links
+    resource: /sources/simulator-prototype-links.md
+    title: Spatial-simulator prototype links
 ---
 
 # What was filed
@@ -34,6 +37,7 @@ The notes name the attached requirements file as `ecodome-spec.txt`. That text i
 
 # What this file does not contain
 
-The notes do not state the April 2027 dates, the $175,000 figure, seated-versus-standing capacity, or the Pacific Domes package. Those are in the [AI Explorers deck](ai-explorers-deck.md). The notes do not record URLs for the Claude or Muse prototypes.
+The notes do not state the April 2027 dates, the $175,000 figure, seated-versus-standing capacity, or the Pacific Domes package. Those are in the [AI Explorers deck](ai-explorers-deck.md). The notes name Claude and Muse prototypes and do not record URLs for them. Those URLs, and a Grok Bot explore entry on the site the notes already named, are in a later note summarized as [spatial-simulator prototype links](simulator-prototype-links.md).[^prototype-links]
 
 [^context-file]: EcoDome Charlottesville context notes, November 2026
+[^prototype-links]: Spatial-simulator prototype links

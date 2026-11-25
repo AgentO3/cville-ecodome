@@ -31,6 +31,7 @@ scripts/validate_okf.py
 | Virginia compilation, Ecodome Foundation | `raw/opencorpdata-ecodome-foundation-2026-11-23.md` |
 | IX Art Park website, accessed 2026-11-23 | `raw/ix-art-park-website-2026-11-23.md` |
 | C-VILLE Weekly note on the IX Nest exhibit, 2016 | `raw/cville-weekly-ix-nest-2016.md` |
+| Spatial-simulator prototype links, 2026-11-23 | `raw/simulator-prototype-links-2026-11-23.md` |
 
 The deck is also published as [Google Slides](https://docs.google.com/presentation/d/1_2WxQJjcp8bBibTe3YFr8n5Iuy0UZx7G6TorSFdZV4M). The PDF is in `raw/` so the wiki still has the deck if that link changes. It is about 7.2 MB, under GitHub's file limit. Most of the type is in the images; the wiki was written by reading the rendered slides.
 

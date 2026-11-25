@@ -18,5 +18,6 @@ Agents read these files and write concept pages under `wiki/`. The wiki is the m
 | `cville-weekly-ix-nest-2016.md` | Short note from an August 24, 2016 C-VILLE Weekly roundup describing the Nest exhibit's geodesic dome. Artist surnames were left out. |
 | `ecodome-feasibility-research-2026-11-23.md` | Draft feasibility study of a 50-foot multimedia geodome business, dated 2026-11-23. The preparer's name and references to a private buyer were generalized before filing. |
 | `discord-general-2026-11-23-24.md` | Paraphrase of Discord #general screenshots from November 23-24, 2026, provided by Owen. No verbatim messages. |
+| `simulator-prototype-links-2026-11-23.md` | Claude, Muse, and Grok Bot explore links for spatial-simulator prototypes, recorded 2026-11-23. |
 
 The PDF contains photographs of people, a vendor phone number, surnames, and a personal quotation. Those stay in the raw file. Concept pages do not transcribe them. See AGENTS.md.
