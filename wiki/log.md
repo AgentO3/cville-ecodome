@@ -2,6 +2,7 @@
 
 ## 2026-11-25
 
+* **Ingest**: Filed Coco's November 25 LinkedIn note to the Fellowship of the Dome, posted from the EcoDome profile cocolata-ecodome. Recorded the idea, maker, and sponsor asks, the shareable blurb, a 50-foot pop-up for Tom Tom 2027, and the name Hackadome. Corrected the typo "here'a" to "here's". Presentation and Discord URLs were not supplied.
 * **Ingest**: Filed a text extraction of the Pacific Domes 50 ft Event Dome brochure, retrieved 2026-11-25. The PDF was about 18 MB and was not stored. Recorded the brochure's dimensions, seating, projection covers, and assembly list beside the existing figures. The footer email and phone were left out. The brochure prints no price.
 * **Ingest**: Filed a paraphrase of Owen's Discord #general screenshots from November 23-24. Recorded the stated projection-then-LED plan, permit and sponsor blockers, the Tom Tom partner-program basics, and left the economics of an inference data center as an open question.
 

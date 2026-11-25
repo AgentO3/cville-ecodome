@@ -20,5 +20,6 @@ Agents read these files and write concept pages under `wiki/`. The wiki is the m
 | `discord-general-2026-11-23-24.md` | Paraphrase of Discord #general screenshots from November 23-24, 2026, provided by Owen. No verbatim messages. |
 | `simulator-prototype-links-2026-11-23.md` | Claude, Muse, and Grok Bot explore links for spatial-simulator prototypes, recorded 2026-11-23. |
 | `pacific-domes-50ft-event-dome-brochure-2026-11-25.md` | Text extraction of the Pacific Domes 50 ft Event Dome brochure, retrieved 2026-11-25. The PDF was about 18 MB and was not stored. The footer email and phone were left out. |
+| `coco-linkedin-holiday-2026-11-25.md` | Coco's November 25, 2026 LinkedIn note to the Fellowship of the Dome, from the EcoDome profile cocolata-ecodome. The typo "here'a" was corrected to "here's". Presentation and Discord URLs were not supplied. |
 
 The PDF contains photographs of people, a vendor phone number, surnames, and a personal quotation. Those stay in the raw file. Concept pages do not transcribe them. See AGENTS.md.
