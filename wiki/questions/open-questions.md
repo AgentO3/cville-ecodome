@@ -4,7 +4,7 @@ title: Open questions and leads
 description: Unresolved site, design, funding, organization, and program questions, plus named leads.
 status: draft
 tags: [ecodome, questions]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T22:00:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -49,6 +49,9 @@ sources:
   - id: pacific-brochure
     resource: /sources/pacific-domes-50ft-brochure.md
     title: Pacific Domes 50 ft brochure
+  - id: coco-tracker
+    resource: /sources/coco-tracker-update.md
+    title: Coco tracker update, November 25
 ---
 
 # Site and structure
@@ -56,7 +59,7 @@ sources:
 - The [pilot deck](../pilot/april-2027.md) still requires a confirmed site, delivery responsibilities, and site approval. The [community notes](../venue/ix-art-park.md) associate the project with IX Art Park. The park's own site does not mention EcoDome. Its outdoor rental platform is about 150 by 100 feet, which is a measurement, not a booking.[^explorers-deck][^community-context][^ix-website]
 - An April 10, 2025 interview says the founder was then speaking with location partners, describes support from the City of Charlottesville, and aims at a prime downtown location. The official site calls the city a partner in a vision sentence and prints no address. No source files a contract, a permit, or a chosen parcel. See [site options](../venue/site-options.md).[^interview][^official-site]
 - No filed source records an issued permit, a certificate of occupancy, or a paid insurance premium. The deck budgets about $2,000 for insurance and permits and lists approvals as future work.[^explorers-deck]
-- The [EARS specification](../dome/geometry.md) says mounting height, entrance, structural ribs, LED panel geometry, and seating are not finalized. The deck proposes a Pacific Domes 50-foot projection package. The official site says "LED-panel dome." The interview says "interactive dome." The notes say "hemispherical video dome." No source says which display has been chosen.[^ears-spec][^official-site][^interview]
+- The [EARS specification](../dome/geometry.md) says mounting height, entrance, structural ribs, LED panel geometry, and seating are not finalized. The deck proposes a Pacific Domes 50-foot projection package. The official site says "LED-panel dome." The interview says "interactive dome." The notes say "hemispherical video dome." On November 25 Coco stated the April plan as a temporary 50-foot projection dome, with LED as the longer-term vision. That matches the November 23 channel plan and is not a purchase.[^ears-spec][^official-site][^interview][^coco-tracker]
 - Hemisphere height in the specification is an assumption. The deck's diagram is a portable geodesic-style dome, not labeled as a mathematical hemisphere. The Pacific Domes brochure prints ceiling height 24.5 ft and labels it 7.5 m, against the specification's 7.62 m hemisphere and the study's about 25 ft. The brochure also labels the 50 ft diameter as 15 m, against the attested 15.24 m.[^pacific-brochure]
 - Seated capacity of 175 and standing capacity of 250 are proposed, and the deck says they depend on layout and approvals. The specification's audience marker is "up to 250" and must be labeled conceptual. The official site and the interview also say 250 and do not split seated from standing. The [feasibility study](../sources/feasibility-research.md) quotes other 50-foot operators at about 150 to 200 seated and 260 to 300 standing, and says the fire official sets the load. The Pacific Domes brochure prints 300 standing, 200 in rows, 170 at a buffet, and 150 at round tables. No source picks one number.[^feasibility][^pacific-brochure]
 - A 2016 article describes a geodesic dome under an IX exhibit called Nest. The park's 2026 pages do not mention it. Whether it is still there, and whether it is vegetative, is unanswered. It is not EcoDome.[^nest-2016]
@@ -82,21 +85,24 @@ sources:
 
 # Leads
 
-- James, described as a friend of Kahlil, owns a dome. No location or dome type is recorded.[^community-context]
+- James, described as a friend of Kahlil, owns a dome. No location or dome type is recorded. On November 25 Kahlil had connected the team with James about a dome, tech, and setup option. That conversation is not a booking.[^community-context][^coco-tracker]
 - Kahlil recently bought dome-related equipment. The kind of equipment is not recorded.
 - The notes ask whether similar domes near Charlottesville can be toured. No tour is filed. The Nest geodesic dome, if it remains, is a park exhibit, not a 50-foot venue. Pacific Domes appears as a proposed package, not as a local room to visit. The feasibility study says it found no central Virginia company renting large geodesic event domes. See [competition](../competition/central-virginia.md).[^feasibility]
 - A frame and cover are described as available to purchase, without a liner or AV. Asking price, manufacturer, year, cover type, and flame certificate are not in the study.
-- The study's display path is multi-projector 360-degree projection. The official site says LED panel. On November 23, Discord #general recorded a stated plan, unverified and not a signed decision: projection for a proof of concept and LED for a final build. The Pacific Domes brochure lists projection covers, including blackout vinyl and theatre fabric for daytime interior projection. It does not choose a cover. How well projection works on a sunny day is still open. See [projection and AV](../dome/projection-and-av.md).[^feasibility][^discord-general][^pacific-brochure]
+- The study's display path is multi-projector 360-degree projection. The official site says LED panel. On November 23, Discord #general recorded a stated plan, unverified and not a signed decision: projection for a proof of concept and LED for a final build. Coco restated that shape on November 25 as the April plan versus a longer-term LED vision. The Pacific Domes brochure lists projection covers, including blackout vinyl and theatre fabric for daytime interior projection. It does not choose a cover, and the Pacific Domes conversation is not a booking. How well projection works on a sunny day is still open. See [projection and AV](../dome/projection-and-av.md).[^feasibility][^discord-general][^pacific-brochure][^coco-tracker]
 - The brochure's pallet lines print inches and meters that do not convert into each other. Its snow line is printed as "20 lbs @ 130 mph" beside 100 mph with no snow, and it does not say whether the 20 pounds is per square foot. The standard package lists two hoop doors; the deck diagram shows a hoop exit, a tunnel entrance, and a hoop exit.[^pacific-brochure][^explorers-deck]
 - Whether a seasonal ticketed run plus mobile rentals will be pursued, and in which county, is not decided. The 180-day temporary-structure line and the Albemarle special-use path are described on the [permits page](../regulations/virginia-permits.md) and are not a filed application.
 - Starting capital in the study is an estimate of $250,000 to $400,000. The deck's pilot goal is $175,000. Insurance is estimated at $12,000 to $25,000 a year in the study and about $2,000 for insurance and permits on the deck.
 - Storage, a truck and trailer, anchor clients, and whether the team has projection experience are asked in the study and not answered.
 - Fred is named in the April 2025 interview as lead designer and builder. No later source confirms that role or names an employer.[^interview]
-- Location permits for a temporary structure are still unconfirmed. Cocolata8 said the Tom Tom team likely knows that part and that specifics are being discussed with IX. No permit is filed.[^discord-general]
+- Location permits for a temporary structure are still unconfirmed. Cocolata8 said the Tom Tom team likely knows that part and that specifics are being discussed with IX. On November 25 the team was meeting with IX about location, permitting, and use for all of April 2027. No permit is filed, and the site is not booked.[^discord-general][^coco-tracker]
 - Whether sponsors will cover the full pilot so admission can stay pay-what-you-can, and whether an aligned lead sponsor would name the dome for the event, is unanswered. BeCamp was named only as a possible conversation.[^discord-general]
 - No project tracking system was identified when Owen asked on November 24.
 - A renewable-powered LLM inference use of the dome was floated. The economics are unproven and need numbers. A calculator was shared; it is not a budget.[^discord-general]
-- A dome explorers cohort, stacked local meetup chapters, and a Reality Hack application were proposed. None is confirmed. EcoDome has not been recorded as a Tom Tom community partner. A LinkedIn post's November 28 Round 2 close was not confirmed on the program page.[^discord-general]
+- A dome explorers cohort, stacked local meetup chapters, and a Reality Hack application were proposed. None is confirmed. EcoDome has not been recorded as a Tom Tom community partner. A letter of support from the Tom Tom Foundation has been received and is not filed here. That letter is not partner-program membership. A LinkedIn post's November 28 Round 2 close was not confirmed on the program page.[^discord-general][^coco-tracker]
+- The deck proposes a five-day showcase. Coco's November 25 update budgets four days of public programming inside April 21-25, 2027. Exact show dates are still open.[^coco-tracker]
+- [Hackadome](../community/hackadome.md) dates are not set. A first 90-minute tech session has happened, and Cville AI Explorers are brainstorming. Conversations with people from MIT Reality Hack and UVA are underway and name no one. Whether Hackadome is the deck's one-day media lab is not said. Coco asked for tech-sponsor ideas for the hackathon. None are named.[^coco-tracker]
+- Coco asked for a "Help build Hackadome" link near the top of the tracker. No URL was provided.[^coco-tracker]
 
 [^ears-spec]: EARS requirements specification
 [^community-context]: Community context notes
@@ -112,3 +118,4 @@ sources:
 [^discord-general]: Discord #general, November 23-24
 [^prototype-links]: Spatial-simulator prototype links
 [^pacific-brochure]: Pacific Domes 50 ft brochure
+[^coco-tracker]: Coco tracker update, November 25

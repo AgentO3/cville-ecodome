@@ -4,7 +4,7 @@ title: April 2027 pilot
 description: Proposed five-day EcoDome showcase with Tom Tom, April 21-25, 2027.
 status: draft
 tags: [ecodome, pilot, tomtom]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T22:00:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -16,6 +16,9 @@ sources:
   - id: interview
     resource: /sources/canvasrebel-interview.md
     title: CanvasRebel founder interview
+  - id: coco-tracker
+    resource: /sources/coco-tracker-update.md
+    title: Coco tracker update, November 25
 ---
 
 # Proposal
@@ -49,6 +52,14 @@ Slides of the installation are labeled concept visualizations, or an original do
 
 The community notes mention a different hackathon idea, a WebXR toolkit around [Dome Tools](../tools/dome-tools.md). The deck does not mention Dome Tools. Both ideas are unresolved on the [questions page](../questions/open-questions.md).
 
+# November 25 status from Coco
+
+On 2026-11-25 Coco (Cocolata8) told Owen that the Tom Tom Foundation has sent a letter of support. That letter is received. It is not a site booking, a permit, or a signed show contract, and the letter is not filed here. The festival window she used is still April 21-25, 2027. She said the working plan budgets four days of public programming. The deck above proposes a five-day showcase. Exact show dates are still open. The paraphrase is the [tracker update](../sources/coco-tracker-update.md).[^coco-tracker]
+
+The team is meeting with [IX Art Park](../venue/ix-art-park.md) about location, permitting, and whether the site can be used for all of April 2027, including setup, testing, and breakdown. That meeting is underway. The site is not booked.
+
+She also described [Hackadome](../community/hackadome.md): artists and tech people build experiences before the festival, test them in the dome, and the community tries them during Tom Tom. She wants that featured first on the tracker. Dates are not set. The note does not say Hackadome is the deck's one-day media lab.
+
 # Money and reporting
 
 The fundraising goal, the approximate allocation, pay-what-you-can admission, and the proposed sponsor terms are on the [budget page](budget-and-sponsorship.md). Coco is named on the deck as founder and as the person to start a sponsor conversation with. This page does not repeat a surname.
@@ -58,3 +69,4 @@ Proposed reporting, still to be agreed, would cover programs and sessions delive
 [^explorers-deck]: AI Explorers presentation
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
+[^coco-tracker]: Coco tracker update, November 25

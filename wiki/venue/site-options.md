@@ -4,7 +4,7 @@ title: Site options
 description: Candidate places named or implied in the sources, none of which confirms a site.
 status: draft
 tags: [ecodome, venue, site]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T22:00:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -31,6 +31,9 @@ sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: coco-tracker
+    resource: /sources/coco-tracker-update.md
+    title: Coco tracker update, November 25
 ---
 
 # No site is confirmed
@@ -44,6 +47,7 @@ None of the filed sources names a street address for EcoDome, a signed host, or 
 | Official site, read 2026-11-23 | Charlottesville is the home. One program area is a centrally located indoor-outdoor space. A vision sentence calls the city a partner. | No address, host, or opening date. It does not mention the April 2027 pilot. |
 | Founder interview, April 10, 2025 | Then, the founder said the project was speaking with location partners, described strong support from the City of Charlottesville, and aimed at a prime downtown location. | No address, contract, or permit. A later deck still says the site is unconfirmed. |
 | IX Art Park's own site, read 2026-11-23 | The park is a real public place in central Charlottesville. Outdoor rentals use a concrete platform of about 150 by 100 feet. | The pages do not mention EcoDome. |
+| Coco to Owen, 2026-11-25 | The team is meeting with IX about location, permitting, and use for all of April 2027. A Tom Tom letter of support has been received. | The meeting is not a booking. Permits and exact show dates are still open.[^coco-tracker] |
 
 The interview is older than the deck. "Speaking with location partners" in April 2025 and "confirm site" in the later deck are the same kind of claim: the site was not finished then, and the later source still says it is not finished. City support remains the founder's description. The official site's "partner" sentence is about the city's character. Neither is a filed agreement.[^interview][^official-site][^community-context][^ix-website]
 
@@ -65,3 +69,4 @@ The [geometry page](../dome/geometry.md) is where the 50-foot proposals are comp
 [^nest-2016]: IX Nest exhibit, 2016
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
+[^coco-tracker]: Coco tracker update, November 25

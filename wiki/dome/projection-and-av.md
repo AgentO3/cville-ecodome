@@ -4,7 +4,7 @@ title: Projection and AV cost tiers
 description: Planning estimates for a projection liner and a multi-projector system, labeled as estimates.
 status: draft
 tags: [ecodome, dome, projection, av]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T22:00:00Z" }
 stale_after: "2027-02-23T00:00:00Z"
 sources:
   - id: feasibility
@@ -16,6 +16,9 @@ sources:
   - id: pacific-brochure
     resource: /sources/pacific-domes-50ft-brochure.md
     title: Pacific Domes 50 ft brochure
+  - id: coco-tracker
+    resource: /sources/coco-tracker-update.md
+    title: Coco tracker update, November 25
 ---
 
 # Why the study wants a liner
@@ -27,6 +30,8 @@ This is a projection system. The [official site](../sources/official-site.md) sa
 # Stated plan from Discord, November 23
 
 In Discord #general, Owen suggested projection as a starting point and OLED or LED panels as the ideal end state, and he left open how well projection works in sun. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That is the team's stated plan in the [screenshot paraphrase](../sources/discord-general-2026-11-23-24.md). It is unverified and not a signed decision. The official site's LED wording and this page's projector estimates stay beside it.[^discord-general]
+
+On 2026-11-25 Coco told Owen the April plan is a temporary 50-foot projection dome, and that LED is the longer-term vision. That is the same shape as the November 23 channel plan. It is her working plan for April, not a purchase, and the official site's LED wording stays on the record. Pacific Domes is in conversation and is not booked. The paraphrase is the [tracker update](../sources/coco-tracker-update.md).[^coco-tracker]
 
 # Projection covers in the manufacturer brochure
 
@@ -64,3 +69,4 @@ Content is described as a recurring cost. One example: Loch Ness Productions pri
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
 [^pacific-brochure]: Pacific Domes 50 ft brochure
+[^coco-tracker]: Coco tracker update, November 25

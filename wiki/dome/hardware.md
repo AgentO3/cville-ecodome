@@ -4,7 +4,7 @@ title: Dome hardware and benchmark prices
 description: Typical 50-foot geodesic specifications and published new-dome list prices, plus an available frame-and-cover offer.
 status: draft
 tags: [ecodome, dome, hardware]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T22:00:00Z" }
 stale_after: "2027-02-23T00:00:00Z"
 sources:
   - id: feasibility
@@ -13,6 +13,9 @@ sources:
   - id: pacific-brochure
     resource: /sources/pacific-domes-50ft-brochure.md
     title: Pacific Domes 50 ft brochure
+  - id: coco-tracker
+    resource: /sources/coco-tracker-update.md
+    title: Coco tracker update, November 25
 ---
 
 # Available offer
@@ -20,6 +23,8 @@ sources:
 The [feasibility research](../sources/feasibility-research.md) says a frame and cover are available to purchase, and that the offer does not include a projection liner or AV equipment. It does not name a seller, a price, a manufacturer, or a year. A fair used price, the study says, should sit well below new list prices, adjusted for age, cover wear, and whether the hardware is complete. If the cover is translucent rather than blackout, the study says to budget a blackout cover or an interior liner.[^feasibility]
 
 That offer is not the same claim as the Pacific Domes package proposed on the [geometry page](geometry.md), and it is not a purchase.
+
+On 2026-11-25 Coco said conversations are underway with Pacific Domes, and that Kahlil connected the team with James about a dome, tech, and setup option. She described both as moved out of "not started" on the tracker. Neither is booked. James was already named in the community notes as someone who owns a dome; this update does not add a location, a model, or a price. The paraphrase is the [tracker update](../sources/coco-tracker-update.md).[^coco-tracker]
 
 # Typical 50-foot specifications
 
@@ -62,3 +67,4 @@ The gap between the $54,000 blackout event dome and the $85,000 projection packa
 
 [^feasibility]: Feasibility research, November 2026
 [^pacific-brochure]: Pacific Domes 50 ft brochure
+[^coco-tracker]: Coco tracker update, November 25
