@@ -4,12 +4,15 @@ title: Central Virginia competition
 description: National dome rental companies and local venues the feasibility study treats as competitors.
 status: draft
 tags: [ecodome, competition, virginia]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T18:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
 stale_after: "2027-02-23T00:00:00Z"
 sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: pacific-brochure
+    resource: /sources/pacific-domes-50ft-brochure.md
+    title: Pacific Domes 50 ft brochure
 ---
 
 # Direct competitors
@@ -25,7 +28,7 @@ The [feasibility research](../sources/feasibility-research.md) says it found no 
 | Lumen & Forge | Las Vegas | Geodesic and inflatable projection domes |
 | SoFlo Studio | Miami | Event dome rentals with projection-mapping add-ons |
 
-The study's claimed advantage for a local operator is no cross-country freight, faster site visits, lower crew travel, and local permit relationships. Pacific Domes also appears on the [geometry page](../dome/geometry.md) as the brand on the pilot deck's proposed package. That is not a statement that EcoDome has hired them.
+The study's claimed advantage for a local operator is no cross-country freight, faster site visits, lower crew travel, and local permit relationships. Pacific Domes also appears on the [geometry page](../dome/geometry.md) as the brand on the pilot deck's proposed package. That is not a statement that EcoDome has hired them. The [50-foot brochure](../sources/pacific-domes-50ft-brochure.md) retrieved 2026-11-25 describes the product and does not print a sale price or a rental rate. The price list named in the table remains the study's citation.[^pacific-brochure]
 
 # Indirect competitors
 
@@ -40,3 +43,4 @@ The study's claimed advantage for a local operator is no cross-country freight, 
 Segments the study says are worth testing, not bookings: weddings at wineries, corporate events, university events, festivals, school field trips, and seasonal public shows such as sound baths, yoga, astronomy nights, and holiday shows. Prices proposed against this set are on the [pricing page](../business/pricing.md).
 
 [^feasibility]: Feasibility research, November 2026
+[^pacific-brochure]: Pacific Domes 50 ft brochure

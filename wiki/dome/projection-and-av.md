@@ -4,7 +4,7 @@ title: Projection and AV cost tiers
 description: Planning estimates for a projection liner and a multi-projector system, labeled as estimates.
 status: draft
 tags: [ecodome, dome, projection, av]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T18:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
 stale_after: "2027-02-23T00:00:00Z"
 sources:
   - id: feasibility
@@ -13,6 +13,9 @@ sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: pacific-brochure
+    resource: /sources/pacific-domes-50ft-brochure.md
+    title: Pacific Domes 50 ft brochure
 ---
 
 # Why the study wants a liner
@@ -24,6 +27,12 @@ This is a projection system. The [official site](../sources/official-site.md) sa
 # Stated plan from Discord, November 23
 
 In Discord #general, Owen suggested projection as a starting point and OLED or LED panels as the ideal end state, and he left open how well projection works in sun. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That is the team's stated plan in the [screenshot paraphrase](../sources/discord-general-2026-11-23-24.md). It is unverified and not a signed decision. The official site's LED wording and this page's projector estimates stay beside it.[^discord-general]
+
+# Projection covers in the manufacturer brochure
+
+The [Pacific Domes 50-foot brochure](../sources/pacific-domes-50ft-brochure.md) is relevant to a projector-based first version because it lists projection covers for this diameter. Event Lite, a translucent coated polyester at 7 ounces per square yard, and Stretch Lite, an indoor Lycra blend at 5 ounces, are described as projection fabrics. Nighttime projection on those covers is described as visible inside and outside. Daytime interior projection is assigned to blackout vinyl and to theatre fabric. The included package cover is vinyl. Event Vinyl, 17 ounces per square yard, is the outdoor fabric offered in blackout.[^pacific-brochure]
+
+That menu does not choose EcoDome's cover. It does not specify the study's negative-pressure liner, a projector count, or a price. The November 23 channel plan named projection for a proof of concept and left sunny-day performance open. The official site's LED wording stays beside both.
 
 # Projector count
 
@@ -54,3 +63,4 @@ Content is described as a recurring cost. One example: Loch Ness Productions pri
 
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
+[^pacific-brochure]: Pacific Domes 50 ft brochure

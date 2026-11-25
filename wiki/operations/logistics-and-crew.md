@@ -4,12 +4,15 @@ title: Logistics and crew
 description: Published build times for a 50-foot dome and the extra days a projection install is said to need.
 status: draft
 tags: [ecodome, operations, crew]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T18:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T15:45:00Z" }
 stale_after: "2027-02-23T00:00:00Z"
 sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: pacific-brochure
+    resource: /sources/pacific-domes-50ft-brochure.md
+    title: Pacific Domes 50 ft brochure
 ---
 
 # Structure-only build times
@@ -23,7 +26,9 @@ The [feasibility research](../sources/feasibility-research.md) quotes other oper
 | Lumen & Forge, large projection domes, 50 to 120 feet | About 20 to 50 hours | Not stated |
 | SoFlo Studio | Plan site access 3 to 4 days before and after the event | Not stated |
 
-Adding a liner, projector rigging, warp and blend, audio, HVAC, flooring, and egress lighting, the study's realistic plan for a projection event is **2 to 3 days of install and 1 to 2 days of strike**. It says DomeGuys' own crews build in about half the time of inexperienced crews, so the first builds are slower. Pacific Domes lists setup and strike for a 50-foot dome at $16,500, four staff and a 10,000-pound reach forklift, excluding shipping, equipment, and travel.
+The [50-foot brochure](../sources/pacific-domes-50ft-brochure.md) itself says 14 hours with a crew of 4, matching the study's "about 14 hours" and crew of 4. Its required equipment is a 10k reach, a 54-foot boom, two 8-foot A-frames, a 25-foot electric scissor lift, and a jackhammer. Anchors are offered for a deck, asphalt, concrete, or earth. The $16,500 setup-and-strike figure is not in this brochure.[^pacific-brochure]
+
+Adding a liner, projector rigging, warp and blend, audio, HVAC, flooring, and egress lighting, the study's realistic plan for a projection event is **2 to 3 days of install and 1 to 2 days of strike**. It says DomeGuys' own crews build in about half the time of inexperienced crews, so the first builds are slower. Pacific Domes lists setup and strike for a 50-foot dome at $16,500, four staff and a 10,000-pound reach forklift, excluding shipping, equipment, and travel. That price is the study's quotation, not a line in the brochure.
 
 # Roles and site needs
 
@@ -34,3 +39,4 @@ Every booking, it says, needs level ground or a hard surface, an anchoring metho
 The capital gear for this work is estimated on [projection and AV](../dome/projection-and-av.md). Permit conditions are on [Virginia permits](../regulations/virginia-permits.md).
 
 [^feasibility]: Feasibility research, November 2026
+[^pacific-brochure]: Pacific Domes 50 ft brochure
