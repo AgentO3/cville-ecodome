@@ -1,10 +1,10 @@
 ---
 type: Structure
 title: Projection and AV cost tiers
-description: Planning estimates for a projection liner and a multi-projector system, labeled as estimates.
+description: Version 1 is a projector system by Owen's 2026-11-25 decision. Planning estimates for a liner and projectors; LED remains a later option.
 status: draft
 tags: [ecodome, dome, projection, av]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T18:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T13:15:00Z" }
 stale_after: "2027-02-23T00:00:00Z"
 sources:
   - id: feasibility
@@ -13,17 +13,26 @@ sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: v1-projector
+    resource: /sources/owner-decision-v1-projector.md
+    title: Version 1 projector decision
 ---
 
 # Why the study wants a liner
 
 The [feasibility research](../sources/feasibility-research.md) says a picture projected on a geodesic cover shows the frame and fabric wrinkles. It describes a negative-pressure liner: a fan pulls air from the gap between the outer cover and an inner screen so the screen is drawn smooth. It cites SoFlo Studio, Fulldome.pro, DomeGuys, and Pacific Domes for that practice. The exact design is not specified for EcoDome.[^feasibility]
 
-This is a projection system. The [official site](../sources/official-site.md) says LED panel, and the [geometry page](geometry.md) keeps both wordings. This page does not choose one.
+# Version 1 decision
+
+On 2026-11-25, Owen, the project owner, confirmed that the first version of the EcoDome will be a projector-based system. That is the decided approach for version 1. The note is the [owner decision](../sources/owner-decision-v1-projector.md).[^v1-projector]
+
+LED and OLED panels stay a possible later upgrade, including as a candidate for a final build. The November 25 decision does not select them for version 1, and it does not adopt a vendor, a projector count, or a dollar figure. How well projection works on a sunny day is still open. See [open questions](../questions/open-questions.md).
+
+Older wordings stay beside that decision. The [official site](../sources/official-site.md) says LED panel. The [geometry page](geometry.md) keeps the deck's projection package and that LED wording on the record. The estimates below are the study's planning figures for a projection system. They are not a quote, and the decision does not adopt them.
 
 # Stated plan from Discord, November 23
 
-In Discord #general, Owen suggested projection as a starting point and OLED or LED panels as the ideal end state, and he left open how well projection works in sun. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That is the team's stated plan in the [screenshot paraphrase](../sources/discord-general-2026-11-23-24.md). It is unverified and not a signed decision. The official site's LED wording and this page's projector estimates stay beside it.[^discord-general]
+In Discord #general, Owen suggested projection as a starting point and OLED or LED panels as the ideal end state, and he left open how well projection works in sun. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That channel statement was not itself the decision. The November 25 owner decision confirms the projector path for version 1 and leaves LED as a possible later upgrade. The official site's LED wording and this page's projector estimates stay beside it.[^discord-general][^v1-projector]
 
 # Projector count
 
@@ -54,3 +63,4 @@ Content is described as a recurring cost. One example: Loch Ness Productions pri
 
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
+[^v1-projector]: Version 1 projector decision

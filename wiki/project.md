@@ -4,7 +4,7 @@ title: EcoDome Charlottesville
 description: Proposed Charlottesville immersive dome, from the public site, the pilot deck, the notes, the simulator specification, and a 2026 feasibility study.
 status: draft
 tags: [ecodome, charlottesville]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T13:15:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -28,11 +28,16 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: v1-projector
+    resource: /sources/owner-decision-v1-projector.md
+    title: Version 1 projector decision
 ---
 
 # Summary
 
 EcoDome is a proposed immersive venue in Charlottesville, Virginia. The [official site](sources/official-site.md), read on 2026-11-23, uses the line "ECODOME: COMING TO CVILLE" and calls it a multipurpose edutainment venue: a 50-foot LED-panel dome designed to fit 250 people, with workshops, education, cultural events, and a sustainability vision.[^official-site]
+
+On 2026-11-25, Owen confirmed that version 1 will be a projector-based system. The official site's LED-panel wording stays on the record as the public page's language. LED remains a possible later upgrade. The decision is on the [projection page](dome/projection-and-av.md).[^v1-projector]
 
 The [AI Explorers deck](sources/ai-explorers-deck.md) describes a temporary dome as the first experiment. An April 2027 pilot would be used to judge community demand and the requirements for a lasting venue. The public site does not mention that pilot. The two framings are kept side by side.[^explorers-deck]
 
@@ -68,3 +73,4 @@ The pilot's proposed money and sponsor terms are on the [budget page](pilot/budg
 [^interview]: CanvasRebel founder interview
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
+[^v1-projector]: Version 1 projector decision
