@@ -11,7 +11,7 @@ sources:
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
   - id: holiday-message
-    resource: /sources/owen-holiday-message.md
+    resource: /sources/coco-linkedin-holiday.md
     title: Holiday message, November 25
 ---
 
@@ -29,7 +29,7 @@ The contribution path he described:
 
 None of those steps is recorded here as completed, except that the wiki and graph already exist in this repository. The same morning's discussion of display, permits, and sponsors is on the [November 23-24 Discord notes](discord-nov-23-24.md).
 
-A later note, on November 25, asks the Fellowship of the Dome for a one-sentence idea, for makers, and for sponsor introductions. That outreach is on [holiday outreach](holiday-outreach.md). It is not the catalog workflow above.[^holiday-message]
+Coco's November 25 LinkedIn note asks the Fellowship of the Dome for a one-sentence idea, for makers, and for sponsor introductions. That outreach is on [holiday outreach](holiday-outreach.md). It is not the catalog workflow above.[^holiday-message]
 
 [^discord-general]: Discord #general, November 23-24
 [^holiday-message]: Holiday message, November 25

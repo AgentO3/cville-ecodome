@@ -17,7 +17,7 @@ sources:
     resource: /sources/canvasrebel-interview.md
     title: CanvasRebel founder interview
   - id: holiday-message
-    resource: /sources/owen-holiday-message.md
+    resource: /sources/coco-linkedin-holiday.md
     title: Holiday message, November 25
 ---
 
@@ -52,7 +52,7 @@ Slides of the installation are labeled concept visualizations, or an original do
 
 The community notes mention a different hackathon idea, a WebXR toolkit around [Dome Tools](../tools/dome-tools.md). The deck does not mention Dome Tools. Both ideas are unresolved on the [questions page](../questions/open-questions.md).
 
-On November 25, Owen's [holiday note](../sources/owen-holiday-message.md) says the team is working toward a 50-foot pop-up dome in Charlottesville for Tom Tom 2027, with Hackadome leading into the festival. "Pop-up" matches the deck's temporary first experiment. Hackadome is a new name. The note does not say whether it is the deck's pre-festival hackathon, the Reality Hack mark on those slides, or the Dome Tools idea, and it does not give dates or a format.[^holiday-message]
+On November 25, Coco's [LinkedIn note](../sources/coco-linkedin-holiday.md) says the team is working toward a 50-foot pop-up dome in Charlottesville for Tom Tom 2027, with Hackadome leading into the festival. "Pop-up" matches the deck's temporary first experiment. Hackadome is a new name. The note does not say whether it is the deck's pre-festival hackathon, the Reality Hack mark on those slides, or the Dome Tools idea, and it does not give dates or a format.[^holiday-message]
 
 # Money and reporting
 

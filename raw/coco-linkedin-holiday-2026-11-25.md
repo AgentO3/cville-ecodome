@@ -1,8 +1,9 @@
 # Holiday community message
 
-- Author: Owen, project owner
+- Author: Coco, EcoDome
+- Profile: https://www.linkedin.com/in/cocolata-ecodome/ (handle cocolata-ecodome)
 - Date: 2026-11-25
-- Channel: community / holiday outreach to the Fellowship of the Dome
+- Channel: LinkedIn post or message by Coco, via the EcoDome LinkedIn profile
 
 Filing notes: The original had the typo "here'a", corrected below to "here's". Stray link markers were dropped. The original had links to the presentation and to Discord; those URLs were not supplied.
 

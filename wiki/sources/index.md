@@ -16,4 +16,4 @@
 * [Discord #general, November 23-24](discord-general-2026-11-23-24.md) - Paraphrase of EcoDome Discord #general screenshots from November 23-24, 2026, provided by Owen.
 * [Spatial-simulator prototype links](simulator-prototype-links.md) - Claude, Muse, and Grok Bot explore links for spatial-simulator prototypes, recorded November 23, 2026.
 * [Pacific Domes 50 ft brochure](pacific-domes-50ft-brochure.md) - Pacific Domes 50-foot event-dome brochure retrieved 2026-11-25, with dimensions, capacity, covers, and assembly, and no printed price.
-* [Holiday message, November 25](owen-holiday-message.md) - Owen's November 25, 2026 holiday note to the Fellowship of the Dome, with a shareable blurb and three asks.
+* [Holiday message, November 25](coco-linkedin-holiday.md) - Coco's November 25, 2026 LinkedIn note to the Fellowship of the Dome, with a shareable blurb and three asks.

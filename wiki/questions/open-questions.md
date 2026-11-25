@@ -50,7 +50,7 @@ sources:
     resource: /sources/pacific-domes-50ft-brochure.md
     title: Pacific Domes 50 ft brochure
   - id: holiday-message
-    resource: /sources/owen-holiday-message.md
+    resource: /sources/coco-linkedin-holiday.md
     title: Holiday message, November 25
 ---
 
@@ -100,7 +100,7 @@ sources:
 - No project tracking system was identified when Owen asked on November 24.
 - A renewable-powered LLM inference use of the dome was floated. The economics are unproven and need numbers. A calculator was shared; it is not a budget.[^discord-general]
 - A dome explorers cohort, stacked local meetup chapters, and a Reality Hack application were proposed. None is confirmed. EcoDome has not been recorded as a Tom Tom community partner. A LinkedIn post's November 28 Round 2 close was not confirmed on the program page.[^discord-general]
-- Hackadome's dates and format are not stated. Owen's November 25 note says it leads into Tom Tom 2027. The deck's pre-festival hackathon, the Reality Hack mark, and the Dome Tools idea are other names. The note does not say Hackadome is any of them. See [holiday outreach](../community/holiday-outreach.md).[^holiday-message]
+- Hackadome's dates and format are not stated. Coco's November 25 LinkedIn note says it leads into Tom Tom 2027. The deck's pre-festival hackathon, the Reality Hack mark, and the Dome Tools idea are other names. The note does not say Hackadome is any of them. See [holiday outreach](../community/holiday-outreach.md).[^holiday-message]
 - What "now nationally" means in that note is not defined. No tour, chapter, or national partner is named. The public site and the deck still describe a Charlottesville project.[^holiday-message]
 - The holiday note linked a presentation and Discord, and those URLs were not supplied.[^holiday-message]
 

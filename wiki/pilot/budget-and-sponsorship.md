@@ -29,7 +29,7 @@ sources:
     resource: /sources/pacific-domes-50ft-brochure.md
     title: Pacific Domes 50 ft brochure
   - id: holiday-message
-    resource: /sources/owen-holiday-message.md
+    resource: /sources/coco-linkedin-holiday.md
     title: Holiday message, November 25
 ---
 
@@ -57,7 +57,7 @@ Proposed admission is free and pay-what-you-can. A sponsorship focus area, "comm
 
 On November 24, Cocolata8 described a combination approach in Discord #general: ideally sponsors cover the full pilot cost, including build, tech, and people, so admission can stay pay-what-you-can; a mix of local sponsors and national tech sponsors would support the hackathon; BeCamp was named as a possible conversation; and an aligned lead sponsor naming the dome for the event was left open. None of that is a signed sponsorship. The paraphrase is the [Discord note](../sources/discord-general-2026-11-23-24.md).[^discord-general]
 
-On November 25, Owen's [holiday note](../sources/owen-holiday-message.md) asks people to introduce possible sponsors and says the project is looking for local and national sponsors to cover the build, the tech, and the people so admission can be pay-what-you-can. That repeats the November 24 aim as a public ask. It does not adopt the deck's $175,000 figure, and it is not a signed sponsorship. The asks are on [holiday outreach](../community/holiday-outreach.md).[^holiday-message]
+On November 25, Coco's [LinkedIn note](../sources/coco-linkedin-holiday.md) asks people to send Coco a name or make an introduction, and says the project is looking for local and national sponsors to cover the build, the tech, and the people so admission can be pay-what-you-can. That repeats the November 24 aim as a public ask. It does not adopt the deck's $175,000 figure, and it is not a signed sponsorship. The asks are on [holiday outreach](../community/holiday-outreach.md).[^holiday-message]
 
 # Sponsorship
 

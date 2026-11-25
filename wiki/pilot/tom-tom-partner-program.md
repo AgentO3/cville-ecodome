@@ -12,7 +12,7 @@ sources:
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
   - id: holiday-message
-    resource: /sources/owen-holiday-message.md
+    resource: /sources/coco-linkedin-holiday.md
     title: Holiday message, November 25
 ---
 
@@ -26,7 +26,7 @@ The [program page](https://tomtomfoundation.org/partner-program), as recorded wi
 
 This page does not say EcoDome has joined the program. The [Discord notes](../community/discord-nov-23-24.md) are the channel discussion that pointed at these pages.
 
-Owen's November 25 [holiday note](../sources/owen-holiday-message.md) restates the aim as a 50-foot pop-up in Charlottesville for Tom Tom 2027, with Hackadome leading into the festival. It does not say EcoDome has joined the partner program, and it does not set Hackadome's dates.[^holiday-message]
+Coco's November 25 [LinkedIn note](../sources/coco-linkedin-holiday.md) restates the aim as a 50-foot pop-up in Charlottesville for Tom Tom 2027, with Hackadome leading into the festival. It does not say EcoDome has joined the partner program, and it does not set Hackadome's dates.[^holiday-message]
 
 [^discord-general]: Discord #general, November 23-24
 [^holiday-message]: Holiday message, November 25
