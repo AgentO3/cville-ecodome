@@ -2,6 +2,7 @@
 
 ## 2026-11-25
 
+* **Ingest**: Filed Owen's November 25 decision that version 1 of the EcoDome is a projector-based system. LED stays a possible later upgrade. Older LED and projection figures remain side by side. The version-1 display question is marked resolved.
 * **Ingest**: Filed a paraphrase of Owen's Discord #general screenshots from November 23-24. Recorded the stated projection-then-LED plan, permit and sponsor blockers, the Tom Tom partner-program basics, and left the economics of an inference data center as an open question.
 
 ## 2026-11-23

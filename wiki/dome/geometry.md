@@ -1,10 +1,10 @@
 ---
 type: Structure
 title: Dome geometry
-description: Nominal 50-foot size, with the deck's projection package and the public site's LED-panel wording both on the record.
+description: Nominal 50-foot size. Version 1 is projector-based; the public site's LED-panel wording stays on the record.
 status: draft
 tags: [ecodome, dome, geometry]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T13:15:00Z" }
 stale_after: "2027-03-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -25,6 +25,9 @@ sources:
   - id: feasibility
     resource: /sources/feasibility-research.md
     title: Feasibility research, November 2026
+  - id: v1-projector
+    resource: /sources/owner-decision-v1-projector.md
+    title: Version 1 projector decision
 ---
 
 # Nominal size
@@ -57,9 +60,9 @@ Later and earlier public pages use the 50-foot and 250-person figures without th
 | 50-foot hemisphere, about 250 people, hemispherical video dome | Community notes[^community-context] |
 | LED panel geometry not finalized; panel grid is a simulator option | EARS specification[^ears-spec] |
 
-A [feasibility study](../sources/feasibility-research.md) provided by the project team adds a third display wording and a wider capacity range. It describes multi-projector 360-degree projection onto a liner, not an LED panel, and it quotes other operators at about 150 to 200 seated and 260 to 300 standing. It also says the fire official sets the real load, and that a projection layout holds fewer people than a brochure. Floor area in that study is about 1,905 to 1,962 square feet, and apex height is about 25 feet, which matches the hemisphere height in feet on this page. A frame and cover are described as available to purchase, without liner or AV. None of that is a purchase or a chosen system. Hardware prices are on [dome hardware](hardware.md).[^feasibility]
+A [feasibility study](../sources/feasibility-research.md) provided by the project team adds a third display wording and a wider capacity range. It describes multi-projector 360-degree projection onto a liner, not an LED panel, and it quotes other operators at about 150 to 200 seated and 260 to 300 standing. It also says the fire official sets the real load, and that a projection layout holds fewer people than a brochure. Floor area in that study is about 1,905 to 1,962 square feet, and apex height is about 25 feet, which matches the hemisphere height in feet on this page. A frame and cover are described as available to purchase, without liner or AV. None of that is a purchase. Hardware prices are on [dome hardware](hardware.md).[^feasibility]
 
-No source says the Pacific Domes package has been purchased, or that an LED-panel system has been specified. [Site options](../venue/site-options.md) records the matching gap for where a structure would stand. The disagreement stays on the [questions page](../questions/open-questions.md).
+On 2026-11-25, Owen confirmed that version 1 will be a projector-based system. The table above still records the older wordings, including the official site's LED-panel line. LED remains a possible later upgrade. The decision does not say a Pacific Domes package has been purchased, and it does not specify an LED-panel system. [Site options](../venue/site-options.md) still records that no place for the structure is chosen. The version-1 display decision, and what it leaves open, is on the [questions page](../questions/open-questions.md) and the [projection page](projection-and-av.md).[^v1-projector]
 
 # Proposed pilot structure
 
@@ -88,3 +91,4 @@ The Pacific Domes openings are not yet written into those requirements. The [spa
 [^official-site]: Official site
 [^interview]: CanvasRebel founder interview
 [^feasibility]: Feasibility research, November 2026
+[^v1-projector]: Version 1 projector decision

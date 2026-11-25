@@ -4,7 +4,7 @@ title: Open questions and leads
 description: Unresolved site, design, funding, organization, and program questions, plus named leads.
 status: draft
 tags: [ecodome, questions]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T21:40:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T13:15:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: ears-spec
@@ -46,6 +46,9 @@ sources:
   - id: prototype-links
     resource: /sources/simulator-prototype-links.md
     title: Spatial-simulator prototype links
+  - id: v1-projector
+    resource: /sources/owner-decision-v1-projector.md
+    title: Version 1 projector decision
 ---
 
 # Site and structure
@@ -53,7 +56,7 @@ sources:
 - The [pilot deck](../pilot/april-2027.md) still requires a confirmed site, delivery responsibilities, and site approval. The [community notes](../venue/ix-art-park.md) associate the project with IX Art Park. The park's own site does not mention EcoDome. Its outdoor rental platform is about 150 by 100 feet, which is a measurement, not a booking.[^explorers-deck][^community-context][^ix-website]
 - An April 10, 2025 interview says the founder was then speaking with location partners, describes support from the City of Charlottesville, and aims at a prime downtown location. The official site calls the city a partner in a vision sentence and prints no address. No source files a contract, a permit, or a chosen parcel. See [site options](../venue/site-options.md).[^interview][^official-site]
 - No filed source records an issued permit, a certificate of occupancy, or a paid insurance premium. The deck budgets about $2,000 for insurance and permits and lists approvals as future work.[^explorers-deck]
-- The [EARS specification](../dome/geometry.md) says mounting height, entrance, structural ribs, LED panel geometry, and seating are not finalized. The deck proposes a Pacific Domes 50-foot projection package. The official site says "LED-panel dome." The interview says "interactive dome." The notes say "hemispherical video dome." No source says which display has been chosen.[^ears-spec][^official-site][^interview]
+- The [EARS specification](../dome/geometry.md) says mounting height, entrance, structural ribs, LED panel geometry, and seating are not finalized. The deck proposes a Pacific Domes 50-foot projection package. The official site says "LED-panel dome." The interview says "interactive dome." The notes say "hemispherical video dome." Version 1's display is no longer in that open list. See [resolved for version 1](#resolved-for-version-1).[^ears-spec][^official-site][^interview][^v1-projector]
 - Hemisphere height in the specification is an assumption. The deck's diagram is a portable geodesic-style dome, not labeled as a mathematical hemisphere.
 - Seated capacity of 175 and standing capacity of 250 are proposed, and the deck says they depend on layout and approvals. The specification's audience marker is "up to 250" and must be labeled conceptual. The official site and the interview also say 250 and do not split seated from standing. The [feasibility study](../sources/feasibility-research.md) quotes other 50-foot operators at about 150 to 200 seated and 260 to 300 standing, and says the fire official sets the load. No source picks one number.[^feasibility]
 - A 2016 article describes a geodesic dome under an IX exhibit called Nest. The park's 2026 pages do not mention it. Whether it is still there, and whether it is vegetative, is unanswered. It is not EcoDome.[^nest-2016]
@@ -83,7 +86,7 @@ sources:
 - Kahlil recently bought dome-related equipment. The kind of equipment is not recorded.
 - The notes ask whether similar domes near Charlottesville can be toured. No tour is filed. The Nest geodesic dome, if it remains, is a park exhibit, not a 50-foot venue. Pacific Domes appears as a proposed package, not as a local room to visit. The feasibility study says it found no central Virginia company renting large geodesic event domes. See [competition](../competition/central-virginia.md).[^feasibility]
 - A frame and cover are described as available to purchase, without a liner or AV. Asking price, manufacturer, year, cover type, and flame certificate are not in the study.
-- The study's display path is multi-projector 360-degree projection. The official site says LED panel. On November 23, Discord #general recorded a stated plan, unverified and not a signed decision: projection for a proof of concept and LED for a final build. How well projection works on a sunny day is still open. See [projection and AV](../dome/projection-and-av.md).[^feasibility][^discord-general]
+- How well a projector-based version 1 works on a sunny day is still open. Whether a later build uses LED or OLED panels is also open. The November 23 channel plan named LED for a final build and was not a signed decision.[^discord-general]
 - Whether a seasonal ticketed run plus mobile rentals will be pursued, and in which county, is not decided. The 180-day temporary-structure line and the Albemarle special-use path are described on the [permits page](../regulations/virginia-permits.md) and are not a filed application.
 - Starting capital in the study is an estimate of $250,000 to $400,000. The deck's pilot goal is $175,000. Insurance is estimated at $12,000 to $25,000 a year in the study and about $2,000 for insurance and permits on the deck.
 - Storage, a truck and trailer, anchor clients, and whether the team has projection experience are asked in the study and not answered.
@@ -93,6 +96,10 @@ sources:
 - No project tracking system was identified when Owen asked on November 24.
 - A renewable-powered LLM inference use of the dome was floated. The economics are unproven and need numbers. A calculator was shared; it is not a budget.[^discord-general]
 - A dome explorers cohort, stacked local meetup chapters, and a Reality Hack application were proposed. None is confirmed. EcoDome has not been recorded as a Tom Tom community partner. A LinkedIn post's November 28 Round 2 close was not confirmed on the program page.[^discord-general]
+
+# Resolved for version 1
+
+- Display technology for version 1 is resolved. On 2026-11-25, Owen, the project owner, confirmed the first version will be a projector-based system. LED or OLED panels remain a possible later upgrade. Older figures stay side by side and are not withdrawn: the study's path is multi-projector 360-degree projection, the official site says LED panel, the deck proposes a Pacific Domes projection package, and the November 23 Discord note recorded projection for a proof of concept and LED for a final build. The decision does not pick a projector count or a budget. See [projection and AV](../dome/projection-and-av.md).[^v1-projector][^feasibility][^discord-general]
 
 [^ears-spec]: EARS requirements specification
 [^community-context]: Community context notes
@@ -107,3 +114,4 @@ sources:
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
 [^prototype-links]: Spatial-simulator prototype links
+[^v1-projector]: Version 1 projector decision

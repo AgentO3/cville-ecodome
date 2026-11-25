@@ -4,7 +4,7 @@ title: Pilot budget and sponsorship
 description: Proposed $175,000 pilot goal, set beside public asks to donate and join as a member.
 status: draft
 tags: [ecodome, pilot, budget, sponsorship]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-23T16:45:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T13:15:00Z" }
 stale_after: "2027-02-01T00:00:00Z"
 sources:
   - id: explorers-deck
@@ -25,6 +25,9 @@ sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: v1-projector
+    resource: /sources/owner-decision-v1-projector.md
+    title: Version 1 projector decision
 ---
 
 # Goal
@@ -79,7 +82,7 @@ The insurance-and-permits line above is a planning number. No source records a p
 
 # A separate feasibility range
 
-The [November 2026 feasibility study](../sources/feasibility-research.md) does not use $175,000. Its planning estimates, which it says are not quotes, put a multimedia layer at about $115,000 on an entry tier and about $275,000 or more on a professional tier, and starting capital for a professional launch at $250,000 to $400,000. A first-year insurance package is estimated at $12,000 to $25,000, against about $2,000 for insurance and permits together on the deck. The study is about buying and operating a projection dome. The deck is about a five-day pilot. Both stay on the record. The estimates are unpacked on the [financial model](../business/financial-model.md) and the [projection page](../dome/projection-and-av.md).[^feasibility]
+The [November 2026 feasibility study](../sources/feasibility-research.md) does not use $175,000. Its planning estimates, which it says are not quotes, put a multimedia layer at about $115,000 on an entry tier and about $275,000 or more on a professional tier, and starting capital for a professional launch at $250,000 to $400,000. A first-year insurance package is estimated at $12,000 to $25,000, against about $2,000 for insurance and permits together on the deck. The study is about buying and operating a projection dome. The deck is about a five-day pilot. Both stay on the record. On 2026-11-25, Owen decided that version 1 is projector-based, so the study's projection estimates are the planning path for that version. The decision does not adopt those dollar figures, and it does not replace the deck's $175,000 goal. LED remains a possible later upgrade. The estimates are unpacked on the [financial model](../business/financial-model.md) and the [projection page](../dome/projection-and-av.md).[^feasibility][^v1-projector]
 
 [^explorers-deck]: AI Explorers presentation
 [^official-site]: Official site
@@ -87,3 +90,4 @@ The [November 2026 feasibility study](../sources/feasibility-research.md) does n
 [^alignable]: Alignable listing
 [^feasibility]: Feasibility research, November 2026
 [^discord-general]: Discord #general, November 23-24
+[^v1-projector]: Version 1 projector decision

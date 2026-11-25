@@ -4,12 +4,15 @@ title: "Discord notes, November 23-24"
 description: "Paraphrased #general discussion of display, permits, sponsors, a cohort, and a meeting on November 23."
 status: draft
 tags: [ecodome, community, discord]
-generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T00:15:00Z" }
+generated: { by: cursor-cloud-agent/grok-4.7, at: "2026-11-25T13:15:00Z" }
 stale_after: "2026-12-15T00:00:00Z"
 sources:
   - id: discord-general
     resource: /sources/discord-general-2026-11-23-24.md
     title: "Discord #general, November 23-24"
+  - id: v1-projector
+    resource: /sources/owner-decision-v1-projector.md
+    title: Version 1 projector decision
 ---
 
 # Source
@@ -18,7 +21,7 @@ This page paraphrases Owen's screenshots of Discord #general on November 23-24, 
 
 # Display and rentals
 
-Owen suggested projection as a starting point and OLED or LED panels as the ideal end state. He left open how well projection works on a sunny day. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That is the team's stated plan in this channel. It is not a signed decision. The [projection page](../dome/projection-and-av.md) keeps it next to the official site's LED wording and the feasibility study's projector estimates.
+Owen suggested projection as a starting point and OLED or LED panels as the ideal end state. He left open how well projection works on a sunny day. Cocolata8, the project lead, said the plan is projection for the proof of concept and LED for the final build. That is the team's stated plan in this channel. It is not a signed decision. On 2026-11-25, Owen confirmed version 1 as a projector-based system and left LED as a possible later upgrade. The [projection page](../dome/projection-and-av.md) keeps the channel plan next to the official site's LED wording, the feasibility study's projector estimates, and that decision.[^v1-projector]
 
 Owen also said that if the projection dome is portable, wedding and corporate rentals could help fund it. The [hybrid model](../business/hybrid-model.md) already sketches that pattern from the feasibility study. This channel is a separate, later statement of the same idea.
 
@@ -41,3 +44,4 @@ On November 24, Owen asked whether a project tracking system exists. None was id
 How to add material to the catalog is on [contribution and catalog](contribution.md). Tom Tom's public partner program is on [Tom Tom 2027 community partners](../pilot/tom-tom-partner-program.md).
 
 [^discord-general]: Discord #general, November 23-24
+[^v1-projector]: Version 1 projector decision
